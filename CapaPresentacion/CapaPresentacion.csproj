@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F25F431A-5285-4532-B95D-9FAB88DC5B61}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LaCrudaY_</RootNamespace>
+    <AssemblyName>LaCrudaY+</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>packages\FontAwesome.Sharp.6.3.0\lib\net48\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.6, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SqlClient.4.8.6\lib\net461\System.Data.SqlClient.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Catalogo\HorarioCat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogo\HorarioCat.Designer.cs">
+      <DependentUpon>HorarioCat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo\PatilloCat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogo\PatilloCat.Designer.cs">
+      <DependentUpon>PatilloCat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo\MaterialesCat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogo\MaterialesCat.Designer.cs">
+      <DependentUpon>MaterialesCat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo\ProveedorCAt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogo\ProveedorCAt.Designer.cs">
+      <DependentUpon>ProveedorCAt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\CRUDclientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD\CRUDclientes.Designer.cs">
+      <DependentUpon>CRUDclientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\CRUDcompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD\CRUDcompras.Designer.cs">
+      <DependentUpon>CRUDcompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\CRUDempleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD\CRUDempleado.Designer.cs">
+      <DependentUpon>CRUDempleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\CRUDhorarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD\CRUDhorarios.Designer.cs">
+      <DependentUpon>CRUDhorarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\CRUDmaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD\CRUDmaterial.Designer.cs">
+      <DependentUpon>CRUDmaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\CRUDplatillos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD\CRUDplatillos.Designer.cs">
+      <DependentUpon>CRUDplatillos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\CRUDproveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD\CRUDproveedor.Designer.cs">
+      <DependentUpon>CRUDproveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\CRUDventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD\CRUDventas.Designer.cs">
+      <DependentUpon>CRUDventas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\FromAcceso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\FromAcceso.Designer.cs">
+      <DependentUpon>FromAcceso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\FromPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\FromPrincipal.Designer.cs">
+      <DependentUpon>FromPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PuntoVenta\Caja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PuntoVenta\Caja.Designer.cs">
+      <DependentUpon>Caja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PuntoVenta\CorteciasMov.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PuntoVenta\CorteciasMov.Designer.cs">
+      <DependentUpon>CorteciasMov.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PuntoVenta\MovCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PuntoVenta\MovCompras.Designer.cs">
+      <DependentUpon>MovCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PuntoVenta\Movpagos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PuntoVenta\Movpagos.Designer.cs">
+      <DependentUpon>Movpagos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PuntoVenta\RetiroCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PuntoVenta\RetiroCaja.Designer.cs">
+      <DependentUpon>RetiroCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\RepClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\RepClientes.Designer.cs">
+      <DependentUpon>RepClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\RepCorte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\RepCorte.Designer.cs">
+      <DependentUpon>RepCorte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\RepGastos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\RepGastos.Designer.cs">
+      <DependentUpon>RepGastos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\RepInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\RepInventario.Designer.cs">
+      <DependentUpon>RepInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\RepPagos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\RepPagos.Designer.cs">
+      <DependentUpon>RepPagos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\RepVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\RepVentas.Designer.cs">
+      <DependentUpon>RepVentas.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CRUD\CRUDclientes.resx">
+      <DependentUpon>CRUDclientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\CRUDempleado.resx">
+      <DependentUpon>CRUDempleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogo\HorarioCat.resx">
+      <DependentUpon>HorarioCat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogo\MaterialesCat.resx">
+      <DependentUpon>MaterialesCat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogo\PatilloCat.resx">
+      <DependentUpon>PatilloCat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogo\ProveedorCAt.resx">
+      <DependentUpon>ProveedorCAt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\CRUDhorarios.resx">
+      <DependentUpon>CRUDhorarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\CRUDmaterial.resx">
+      <DependentUpon>CRUDmaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\CRUDplatillos.resx">
+      <DependentUpon>CRUDplatillos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\CRUDproveedor.resx">
+      <DependentUpon>CRUDproveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\CRUDventas.resx">
+      <DependentUpon>CRUDventas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\FromAcceso.resx">
+      <DependentUpon>FromAcceso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\FromPrincipal.resx">
+      <DependentUpon>FromPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PuntoVenta\Caja.resx">
+      <DependentUpon>Caja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PuntoVenta\CorteciasMov.resx">
+      <DependentUpon>CorteciasMov.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PuntoVenta\MovCompras.resx">
+      <DependentUpon>MovCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PuntoVenta\Movpagos.resx">
+      <DependentUpon>Movpagos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PuntoVenta\RetiroCaja.resx">
+      <DependentUpon>RetiroCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apagado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proveedores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\platillo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\material.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-ventas-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-retiro-de-efectivo--64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-reloj-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-regalo-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-intereses-de-tarjeta-de-crédito-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-compra-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cierre-de-venta-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bonus-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empleados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\catalogos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoredondopng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-restore-window-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minimizar-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cerrar-ventana-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-botón-maximizar-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoAdmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-configuración-del-administrador-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-configuración-del-administrador-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-statistics-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cash-register-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-receive-dollar-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-tick-box-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-google-web-search-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visibility_off_24dp_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visibility_24dp_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_48dp_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_40dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_40dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj">
+      <Project>{8ba8e827-6295-45b7-91a6-4f48e0ea56e5}</Project>
+      <Name>CapaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
