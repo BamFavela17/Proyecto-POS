@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\principal\\fromprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\crud\\crudempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:crud\\crudempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\crud\\crudempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:crud\\crudempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{066F3F34-D53B-4949-80DA-F0DF3C2F9DC5}|..\\CapaDatos\\CapaDatos.csproj|c:\\users\\favel\\onedrive\\desktop\\proyecto_pos\\capadatos\\cd_crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\principal\\fromprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:principal\\fromprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|c:\\users\\favel\\onedrive\\desktop\\proyecto_pos\\capapresentacion\\principal\\fromprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:principal\\fromprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\principal\\fromacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:principal\\fromacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{066F3F34-D53B-4949-80DA-F0DF3C2F9DC5}|..\\CapaDatos\\CapaDatos.csproj|c:\\users\\favel\\onedrive\\desktop\\proyecto_pos\\capadatos\\cd_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B69D6582-71B4-41AA-BCB8-A8E7C78E2E3A}|..\\CapaSoporte\\CapaSoporte.csproj|c:\\users\\favel\\onedrive\\desktop\\proyecto_pos\\capasoporte\\usercache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -21,11 +29,14 @@
       "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:principal\\fromacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|c:\\users\\favel\\onedrive\\desktop\\proyecto_pos\\capapresentacion\\principal\\fromprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:principal\\fromprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\principal\\fromacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:principal\\fromacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BA8E827-6295-45B7-91A6-4F48E0EA56E5}|..\\CapaNegocio\\CapaNegocio.csproj|c:\\users\\favel\\onedrive\\desktop\\proyecto_pos\\capanegocio\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{066F3F34-D53B-4949-80DA-F0DF3C2F9DC5}|..\\CapaDatos\\CapaDatos.csproj|c:\\users\\favel\\onedrive\\desktop\\proyecto_pos\\capadatos\\cd_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\principal\\fromacceso.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -40,14 +51,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BA8E827-6295-45B7-91A6-4F48E0EA56E5}|..\\CapaNegocio\\CapaNegocio.csproj|c:\\users\\favel\\onedrive\\desktop\\proyecto_pos\\capanegocio\\cn_crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\crud\\crudempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:crud\\crudempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\crud\\crudempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:crud\\crudempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -65,59 +68,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "CD_Crud.cs",
+              "DocumentMoniker": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaDatos\\CD_Crud.cs",
+              "RelativeDocumentMoniker": "..\\CapaDatos\\CD_Crud.cs",
+              "ToolTip": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaDatos\\CD_Crud.cs",
+              "RelativeToolTip": "..\\CapaDatos\\CD_Crud.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T06:41:34.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FromPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\Principal\\FromPrincipal.cs",
               "RelativeDocumentMoniker": "Principal\\FromPrincipal.cs",
               "ToolTip": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\Principal\\FromPrincipal.cs",
               "RelativeToolTip": "Principal\\FromPrincipal.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAwBsAAAAJAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAQwFUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T01:41:07.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FromAcceso.cs",
-              "DocumentMoniker": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\Principal\\FromAcceso.cs",
-              "RelativeDocumentMoniker": "Principal\\FromAcceso.cs",
-              "ToolTip": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\Principal\\FromAcceso.cs",
-              "RelativeToolTip": "Principal\\FromAcceso.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAYwE0AAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T23:18:40.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserCache.cs",
-              "DocumentMoniker": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaSoporte\\UserCache.cs",
-              "RelativeDocumentMoniker": "..\\CapaSoporte\\UserCache.cs",
-              "ToolTip": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaSoporte\\UserCache.cs",
-              "RelativeToolTip": "..\\CapaSoporte\\UserCache.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBUAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T01:51:12.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CD_Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaDatos\\CD_Usuario.cs",
-              "RelativeDocumentMoniker": "..\\CapaDatos\\CD_Usuario.cs",
-              "ToolTip": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaDatos\\CD_Usuario.cs",
-              "RelativeToolTip": "..\\CapaDatos\\CD_Usuario.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAADgvzkAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T00:02:23.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaNegocio\\UserModel.cs",
               "RelativeDocumentMoniker": "..\\CapaNegocio\\UserModel.cs",
@@ -130,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "FromAcceso.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\Principal\\FromAcceso.cs",
               "RelativeDocumentMoniker": "Principal\\FromAcceso.cs",
@@ -142,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "FromPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\Principal\\FromPrincipal.cs",
               "RelativeDocumentMoniker": "Principal\\FromPrincipal.cs",
@@ -154,7 +131,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
+              "Title": "CRUDempleado.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\CRUD\\CRUDempleado.cs",
+              "RelativeDocumentMoniker": "CRUD\\CRUDempleado.cs",
+              "ToolTip": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\CRUD\\CRUDempleado.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CRUD\\CRUDempleado.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T23:18:22.909Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CRUDempleado.cs",
+              "DocumentMoniker": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\CRUD\\CRUDempleado.cs",
+              "RelativeDocumentMoniker": "CRUD\\CRUDempleado.cs",
+              "ToolTip": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\CRUD\\CRUDempleado.cs",
+              "RelativeToolTip": "CRUD\\CRUDempleado.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAADwv3QAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T23:18:28.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CD_Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaDatos\\CD_Usuario.cs",
+              "RelativeDocumentMoniker": "..\\CapaDatos\\CD_Usuario.cs",
+              "ToolTip": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaDatos\\CD_Usuario.cs",
+              "RelativeToolTip": "..\\CapaDatos\\CD_Usuario.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAkwD8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T00:02:23.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserCache.cs",
+              "DocumentMoniker": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaSoporte\\UserCache.cs",
+              "RelativeDocumentMoniker": "..\\CapaSoporte\\UserCache.cs",
+              "ToolTip": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaSoporte\\UserCache.cs",
+              "RelativeToolTip": "..\\CapaSoporte\\UserCache.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAMwBUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T01:51:12.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FromAcceso.cs",
+              "DocumentMoniker": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\Principal\\FromAcceso.cs",
+              "RelativeDocumentMoniker": "Principal\\FromAcceso.cs",
+              "ToolTip": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\Principal\\FromAcceso.cs",
+              "RelativeToolTip": "Principal\\FromAcceso.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAF8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T23:18:40.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "CN_Crud.cs",
               "DocumentMoniker": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaNegocio\\CN_Crud.cs",
               "RelativeDocumentMoniker": "..\\CapaNegocio\\CN_Crud.cs",
@@ -166,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "FromAcceso.Designer.cs",
               "DocumentMoniker": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\Principal\\FromAcceso.Designer.cs",
               "RelativeDocumentMoniker": "Principal\\FromAcceso.Designer.cs",
@@ -179,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ConexionSQL.cs",
               "DocumentMoniker": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaDatos\\ConexionSQL.cs",
               "RelativeDocumentMoniker": "..\\CapaDatos\\ConexionSQL.cs",
@@ -187,12 +228,11 @@
               "RelativeToolTip": "..\\CapaDatos\\ConexionSQL.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T00:56:57.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T00:56:57.772Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -201,29 +241,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T23:51:37.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CRUDempleado.cs",
-              "DocumentMoniker": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\CRUD\\CRUDempleado.cs",
-              "RelativeDocumentMoniker": "CRUD\\CRUDempleado.cs",
-              "ToolTip": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\CRUD\\CRUDempleado.cs",
-              "RelativeToolTip": "CRUD\\CRUDempleado.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAAAEIAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T23:18:28.219Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CRUDempleado.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\CRUD\\CRUDempleado.cs",
-              "RelativeDocumentMoniker": "CRUD\\CRUDempleado.cs",
-              "ToolTip": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\CRUD\\CRUDempleado.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CRUD\\CRUDempleado.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T23:18:22.909Z"
             }
           ]
         }

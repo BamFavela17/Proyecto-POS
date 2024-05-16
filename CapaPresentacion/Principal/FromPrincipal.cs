@@ -77,8 +77,15 @@ namespace LaCrudaY_.Principal
 
         private void btnCsesion_Click(object sender, EventArgs e)
         {
-            FromAcceso l = new FromAcceso();
-            l.ShowDialog();
+            DialogResult result = MessageBox.Show("¿Deseas cerrar esta sesión?", "Cierre de sesión", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                this.Hide();
+                 FromAcceso l = new FromAcceso();
+            l.ShowDialog();  
+            }
+          
+           
         }
         public void abrirFormHijo(object Pantalla2)
         {

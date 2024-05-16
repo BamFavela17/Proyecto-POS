@@ -14,6 +14,7 @@ using System.Windows.Forms;
 
 using CapaNegocio;
 using LaCrudaY_.CRUD;
+using LaCrudaY_.Principal;
 
 namespace LaCrudaY_
 {
@@ -111,17 +112,21 @@ namespace LaCrudaY_
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            if (tblUser.SelectedRows.Count > 0)
+            DialogResult result = MessageBox.Show("Al eliminarlo no podras recuperarlo\n ¿Estas de acuerdo?", "eliminar registro", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
             {
-                idemp = tblUser.CurrentRow.Cells["id"].Value.ToString();
+                if (tblUser.SelectedRows.Count > 0)
+            {
+                idemp = tblUser.CurrentRow.Cells["idU"].Value.ToString();
                 objCN.EliminarEmp(idemp);
                 MessageBox.Show("Eliminado correctamente");
                 MostrarEmpleados();
             }
             else
                 MessageBox.Show("seleccione una fila por favor");
-
+            }
         }
+           
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
