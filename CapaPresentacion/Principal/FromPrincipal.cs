@@ -286,5 +286,10 @@ namespace LaCrudaY_.Principal
             subMenuMov.Visible = false;
             BarOpc.Size = new System.Drawing.Size(260, 750);
         }
+
+        private void btnEditarDatos_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

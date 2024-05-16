@@ -129,6 +129,12 @@
     <Compile Include="CRUD\CRUDventas.Designer.cs">
       <DependentUpon>CRUDventas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Principal\AjusteUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\AjusteUsuario.Designer.cs">
+      <DependentUpon>AjusteUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Principal\FromAcceso.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -241,6 +247,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CRUD\CRUDventas.resx">
       <DependentUpon>CRUDventas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\AjusteUsuario.resx">
+      <DependentUpon>AjusteUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal\FromAcceso.resx">
       <DependentUpon>FromAcceso.cs</DependentUpon>
