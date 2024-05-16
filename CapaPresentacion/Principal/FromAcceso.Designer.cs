@@ -32,6 +32,8 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Contenido = new System.Windows.Forms.Panel();
+            this.imgError = new System.Windows.Forms.PictureBox();
+            this.lblError = new System.Windows.Forms.Label();
             this.btnOcultarContra = new System.Windows.Forms.PictureBox();
             this.btnMostrarContra = new System.Windows.Forms.PictureBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
@@ -45,6 +47,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.Contenido.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgError)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnOcultarContra)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMostrarContra)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -87,6 +90,8 @@
             // Contenido
             // 
             this.Contenido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(60)))), ((int)(((byte)(83)))));
+            this.Contenido.Controls.Add(this.imgError);
+            this.Contenido.Controls.Add(this.lblError);
             this.Contenido.Controls.Add(this.btnOcultarContra);
             this.Contenido.Controls.Add(this.btnMostrarContra);
             this.Contenido.Controls.Add(this.linkLabel1);
@@ -102,10 +107,35 @@
             this.Contenido.Size = new System.Drawing.Size(450, 656);
             this.Contenido.TabIndex = 1;
             // 
+            // imgError
+            // 
+            this.imgError.Image = global::LaCrudaY_.Properties.Resources.error_24dp;
+            this.imgError.Location = new System.Drawing.Point(45, 445);
+            this.imgError.Name = "imgError";
+            this.imgError.Size = new System.Drawing.Size(30, 30);
+            this.imgError.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgError.TabIndex = 16;
+            this.imgError.TabStop = false;
+            this.imgError.Visible = false;
+            // 
+            // lblError
+            // 
+            this.lblError.AutoSize = true;
+            this.lblError.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblError.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblError.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblError.Location = new System.Drawing.Point(78, 450);
+            this.lblError.Name = "lblError";
+            this.lblError.Size = new System.Drawing.Size(124, 21);
+            this.lblError.TabIndex = 15;
+            this.lblError.Text = "Error message";
+            this.lblError.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblError.Visible = false;
+            // 
             // btnOcultarContra
             // 
             this.btnOcultarContra.Image = global::LaCrudaY_.Properties.Resources.visibility_off_24dp_FILL0_wght400_GRAD0_opsz24;
-            this.btnOcultarContra.Location = new System.Drawing.Point(399, 402);
+            this.btnOcultarContra.Location = new System.Drawing.Point(399, 400);
             this.btnOcultarContra.Name = "btnOcultarContra";
             this.btnOcultarContra.Size = new System.Drawing.Size(40, 40);
             this.btnOcultarContra.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -116,7 +146,7 @@
             // btnMostrarContra
             // 
             this.btnMostrarContra.Image = global::LaCrudaY_.Properties.Resources.visibility_24dp_FILL0_wght400_GRAD0_opsz24;
-            this.btnMostrarContra.Location = new System.Drawing.Point(399, 402);
+            this.btnMostrarContra.Location = new System.Drawing.Point(399, 400);
             this.btnMostrarContra.Name = "btnMostrarContra";
             this.btnMostrarContra.Size = new System.Drawing.Size(40, 40);
             this.btnMostrarContra.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -130,7 +160,7 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.LinkColor = System.Drawing.Color.Silver;
-            this.linkLabel1.Location = new System.Drawing.Point(93, 573);
+            this.linkLabel1.Location = new System.Drawing.Point(96, 611);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(234, 21);
             this.linkLabel1.TabIndex = 7;
@@ -143,9 +173,9 @@
             this.btnIngresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(98)))), ((int)(((byte)(228)))));
             this.btnIngresar.FlatAppearance.BorderSize = 0;
             this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIngresar.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIngresar.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIngresar.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnIngresar.Location = new System.Drawing.Point(49, 484);
+            this.btnIngresar.Location = new System.Drawing.Point(52, 522);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(324, 61);
             this.btnIngresar.TabIndex = 6;
@@ -228,6 +258,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.Contenido.ResumeLayout(false);
             this.Contenido.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgError)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnOcultarContra)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMostrarContra)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -250,5 +281,7 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.PictureBox btnMostrarContra;
         private System.Windows.Forms.PictureBox btnOcultarContra;
+        private System.Windows.Forms.PictureBox imgError;
+        private System.Windows.Forms.Label lblError;
     }
 }

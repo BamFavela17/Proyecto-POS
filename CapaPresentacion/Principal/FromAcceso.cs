@@ -10,7 +10,9 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using CapaDatos;
+using CapaNegocio;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace LaCrudaY_.Principal
 {
@@ -64,9 +66,38 @@ namespace LaCrudaY_.Principal
             string user = txtUser.Text;
             string pass = txtpass.Text;
             // evaluar si exixten o no
-           
+            if(user != "")
+            {
+                if (pass != "")
+                {
+                    UserModel usuario = new UserModel();
+                    var validLogin = usuario.LoginUser(user, pass);
+                    if (validLogin == true)
+                    {
+                        FromPrincipal mainMenu = new FromPrincipal();
+                        MessageBox.Show("Bienvenido " + UserCache.nombres + " " + UserCache.apellidos);
+                        mainMenu.Show();
+                        this.Hide();
+                        
+                    }
+                    else
+                    {
+                        error("Usuario y/o contraseña incorrectos. \n por favor intente de nuevo.");
+                        
+                        txtUser.Focus();
+                    }
+                }
+                else error("Favor de ingresar su contraseña.");
+            }
+            else error("Favor de ingresar su usuario.");
 
-               
+
+        }
+        private void error(string msj)
+        {
+         lblError.Text = msj;
+            lblError.Visible = true;
+           imgError.Visible = true;
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)

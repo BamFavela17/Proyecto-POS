@@ -143,34 +143,34 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PuntoVenta\Caja.cs">
+    <Compile Include="Principal\PuntoVenta\Caja.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PuntoVenta\Caja.Designer.cs">
+    <Compile Include="Principal\PuntoVenta\Caja.Designer.cs">
       <DependentUpon>Caja.cs</DependentUpon>
     </Compile>
-    <Compile Include="PuntoVenta\CorteciasMov.cs">
+    <Compile Include="Principal\PuntoVenta\CorteciasMov.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PuntoVenta\CorteciasMov.Designer.cs">
+    <Compile Include="Principal\PuntoVenta\CorteciasMov.Designer.cs">
       <DependentUpon>CorteciasMov.cs</DependentUpon>
     </Compile>
-    <Compile Include="PuntoVenta\MovCompras.cs">
+    <Compile Include="Principal\PuntoVenta\MovCompras.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PuntoVenta\MovCompras.Designer.cs">
+    <Compile Include="Principal\PuntoVenta\MovCompras.Designer.cs">
       <DependentUpon>MovCompras.cs</DependentUpon>
     </Compile>
-    <Compile Include="PuntoVenta\Movpagos.cs">
+    <Compile Include="Principal\PuntoVenta\Movpagos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PuntoVenta\Movpagos.Designer.cs">
+    <Compile Include="Principal\PuntoVenta\Movpagos.Designer.cs">
       <DependentUpon>Movpagos.cs</DependentUpon>
     </Compile>
-    <Compile Include="PuntoVenta\RetiroCaja.cs">
+    <Compile Include="Principal\PuntoVenta\RetiroCaja.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PuntoVenta\RetiroCaja.Designer.cs">
+    <Compile Include="Principal\PuntoVenta\RetiroCaja.Designer.cs">
       <DependentUpon>RetiroCaja.cs</DependentUpon>
     </Compile>
     <Compile Include="Reportes\RepClientes.cs">
@@ -253,19 +253,19 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="PuntoVenta\Caja.resx">
+    <EmbeddedResource Include="Principal\PuntoVenta\Caja.resx">
       <DependentUpon>Caja.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PuntoVenta\CorteciasMov.resx">
+    <EmbeddedResource Include="Principal\PuntoVenta\CorteciasMov.resx">
       <DependentUpon>CorteciasMov.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PuntoVenta\MovCompras.resx">
+    <EmbeddedResource Include="Principal\PuntoVenta\MovCompras.resx">
       <DependentUpon>MovCompras.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PuntoVenta\Movpagos.resx">
+    <EmbeddedResource Include="Principal\PuntoVenta\Movpagos.resx">
       <DependentUpon>Movpagos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PuntoVenta\RetiroCaja.resx">
+    <EmbeddedResource Include="Principal\PuntoVenta\RetiroCaja.resx">
       <DependentUpon>RetiroCaja.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -397,6 +397,25 @@
       <Project>{8ba8e827-6295-45b7-91a6-4f48e0ea56e5}</Project>
       <Name>CapaNegocio</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CapaSoporte\CapaSoporte.csproj">
+      <Project>{b69d6582-71b4-41aa-bcb8-a8e7c78e2e3a}</Project>
+      <Name>CapaSoporte</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error_20dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notificaciones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CerrarSesion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ajustes.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -12,6 +12,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Input;
 using LaCrudaY_.Catalogo;
+using CapaDatos;
+using CapaNegocio;
 
 namespace LaCrudaY_.Principal
 {
@@ -24,8 +26,14 @@ namespace LaCrudaY_.Principal
 
         private void FromPrincipal_Load(object sender, EventArgs e)
         {
+            
+            lblUsuario.Text = UserCache.nombres + " "+ UserCache.apellidos;
+            UserModel m = new UserModel();
+            m.Cargo(UserCache.idpuesto);
+            lblCargo.Text = UserCache.Cargousuario;
 
         }
+
 
         private void btnExit_Click(object sender, EventArgs e)
         {
