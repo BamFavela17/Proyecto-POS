@@ -291,5 +291,10 @@ namespace LaCrudaY_.Principal
         {
 
         }
+
+        private void BarOpc_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

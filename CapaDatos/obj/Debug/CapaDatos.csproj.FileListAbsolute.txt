@@ -13,3 +13,12 @@ C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaDatos\obj\Debug\CapaDatos.pdb
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaDatos\bin\Debug\CapaSoporte.dll
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaDatos\bin\Debug\CapaSoporte.pdb
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaDatos\obj\Debug\CapaDatos.csproj.Up2Date
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaDatos\bin\Debug\CapaSoporte.dll
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaDatos\bin\Debug\CapaSoporte.pdb
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaDatos\obj\Debug\CapaDatos.csproj.Up2Date
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaDatos\obj\Debug\CapaDatos.pdb

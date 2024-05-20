@@ -18,3 +18,14 @@ C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaNegocio\obj\Debug\CapaNegocio.d
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaNegocio\obj\Debug\CapaNegocio.pdb
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaNegocio\bin\Debug\CapaSoporte.dll
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaNegocio\bin\Debug\CapaSoporte.pdb
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaNegocio\bin\Debug\CapaSoporte.dll
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaNegocio\bin\Debug\CapaSoporte.pdb
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaNegocio\obj\Debug\CapaNego.81B9D119.Up2Date
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaNegocio\obj\Debug\CapaNegocio.pdb

@@ -426,5 +426,41 @@
   <ItemGroup>
     <None Include="Resources\Ajustes.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-usuario-30 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-salida-70 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-config-70 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-configuración-del-administrador-401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-view-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-statistics-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-grafico-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-grafico-40 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-configuración-del-administrador-402.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-guardar-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-basura-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-editar-50.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
