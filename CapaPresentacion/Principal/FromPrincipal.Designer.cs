@@ -97,6 +97,7 @@
             this.BarOpc.SuspendLayout();
             this.subMenuMov.SuspendLayout();
             this.subMenuRep.SuspendLayout();
+            this.panel24.SuspendLayout();
             this.subMenuAdmin.SuspendLayout();
             this.subMenuCat.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -126,7 +127,6 @@
             // BarOpc
             // 
             this.BarOpc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(108)))), ((int)(((byte)(115)))));
-            this.BarOpc.Controls.Add(this.subMenuMov);
             this.BarOpc.Controls.Add(this.btnCsesion);
             this.BarOpc.Controls.Add(this.subMenuRep);
             this.BarOpc.Controls.Add(this.subMenuAdmin);
@@ -145,8 +145,9 @@
             this.BarOpc.Dock = System.Windows.Forms.DockStyle.Left;
             this.BarOpc.Location = new System.Drawing.Point(0, 50);
             this.BarOpc.Name = "BarOpc";
-            this.BarOpc.Size = new System.Drawing.Size(350, 750);
+            this.BarOpc.Size = new System.Drawing.Size(374, 750);
             this.BarOpc.TabIndex = 0;
+            this.BarOpc.Paint += new System.Windows.Forms.PaintEventHandler(this.BarOpc_Paint);
             // 
             // subMenuMov
             // 
@@ -160,7 +161,7 @@
             this.subMenuMov.Controls.Add(this.btnCompras);
             this.subMenuMov.Controls.Add(this.panel18);
             this.subMenuMov.Controls.Add(this.btnVenta);
-            this.subMenuMov.Location = new System.Drawing.Point(309, 443);
+            this.subMenuMov.Location = new System.Drawing.Point(1, 45);
             this.subMenuMov.Name = "subMenuMov";
             this.subMenuMov.Size = new System.Drawing.Size(239, 285);
             this.subMenuMov.TabIndex = 11;
@@ -221,7 +222,7 @@
             this.subMenuRep.Controls.Add(this.button14);
             this.subMenuRep.Controls.Add(this.panel24);
             this.subMenuRep.Controls.Add(this.button15);
-            this.subMenuRep.Location = new System.Drawing.Point(309, 371);
+            this.subMenuRep.Location = new System.Drawing.Point(350, 405);
             this.subMenuRep.Name = "subMenuRep";
             this.subMenuRep.Size = new System.Drawing.Size(239, 338);
             this.subMenuRep.TabIndex = 12;
@@ -229,7 +230,7 @@
             // 
             // panel19
             // 
-            this.panel19.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(102)))), ((int)(((byte)(94)))));
             this.panel19.Location = new System.Drawing.Point(2, 170);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(20, 48);
@@ -237,7 +238,7 @@
             // 
             // panel20
             // 
-            this.panel20.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(102)))), ((int)(((byte)(94)))));
             this.panel20.Location = new System.Drawing.Point(2, 278);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(20, 48);
@@ -245,7 +246,7 @@
             // 
             // panel21
             // 
-            this.panel21.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(102)))), ((int)(((byte)(94)))));
             this.panel21.Location = new System.Drawing.Point(0, 116);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(20, 48);
@@ -253,7 +254,7 @@
             // 
             // panel22
             // 
-            this.panel22.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(102)))), ((int)(((byte)(94)))));
             this.panel22.Location = new System.Drawing.Point(2, 224);
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(20, 48);
@@ -270,6 +271,7 @@
             // panel24
             // 
             this.panel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(102)))), ((int)(((byte)(94)))));
+            this.panel24.Controls.Add(this.subMenuMov);
             this.panel24.Location = new System.Drawing.Point(-1, 8);
             this.panel24.Name = "panel24";
             this.panel24.Size = new System.Drawing.Size(20, 48);
@@ -287,7 +289,7 @@
             this.subMenuAdmin.Controls.Add(this.button1);
             this.subMenuAdmin.Controls.Add(this.panel6);
             this.subMenuAdmin.Controls.Add(this.opc1);
-            this.subMenuAdmin.Location = new System.Drawing.Point(308, 228);
+            this.subMenuAdmin.Location = new System.Drawing.Point(349, 106);
             this.subMenuAdmin.Name = "subMenuAdmin";
             this.subMenuAdmin.Size = new System.Drawing.Size(259, 275);
             this.subMenuAdmin.TabIndex = 0;
@@ -343,7 +345,7 @@
             this.subMenuCat.Controls.Add(this.button18);
             this.subMenuCat.Controls.Add(this.panel30);
             this.subMenuCat.Controls.Add(this.button20);
-            this.subMenuCat.Location = new System.Drawing.Point(308, 295);
+            this.subMenuCat.Location = new System.Drawing.Point(349, 177);
             this.subMenuCat.Name = "subMenuCat";
             this.subMenuCat.Size = new System.Drawing.Size(239, 227);
             this.subMenuCat.TabIndex = 11;
@@ -352,7 +354,7 @@
             // 
             // panel26
             // 
-            this.panel26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(193)))), ((int)(((byte)(106)))));
+            this.panel26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(215)))), ((int)(((byte)(166)))));
             this.panel26.Location = new System.Drawing.Point(2, 118);
             this.panel26.Name = "panel26";
             this.panel26.Size = new System.Drawing.Size(20, 48);
@@ -360,7 +362,7 @@
             // 
             // panel27
             // 
-            this.panel27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(193)))), ((int)(((byte)(106)))));
+            this.panel27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(215)))), ((int)(((byte)(166)))));
             this.panel27.Location = new System.Drawing.Point(2, 64);
             this.panel27.Name = "panel27";
             this.panel27.Size = new System.Drawing.Size(20, 48);
@@ -368,7 +370,7 @@
             // 
             // panel28
             // 
-            this.panel28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(193)))), ((int)(((byte)(106)))));
+            this.panel28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(215)))), ((int)(((byte)(166)))));
             this.panel28.Location = new System.Drawing.Point(2, 172);
             this.panel28.Name = "panel28";
             this.panel28.Size = new System.Drawing.Size(20, 48);
@@ -376,7 +378,7 @@
             // 
             // panel30
             // 
-            this.panel30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(193)))), ((int)(((byte)(106)))));
+            this.panel30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(215)))), ((int)(((byte)(166)))));
             this.panel30.Location = new System.Drawing.Point(1, 8);
             this.panel30.Name = "panel30";
             this.panel30.Size = new System.Drawing.Size(20, 48);
@@ -451,9 +453,9 @@
             // 
             this.Contenido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(199)))), ((int)(((byte)(183)))));
             this.Contenido.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Contenido.Location = new System.Drawing.Point(350, 50);
+            this.Contenido.Location = new System.Drawing.Point(374, 50);
             this.Contenido.Name = "Contenido";
-            this.Contenido.Size = new System.Drawing.Size(1150, 750);
+            this.Contenido.Size = new System.Drawing.Size(1126, 750);
             this.Contenido.TabIndex = 1;
             // 
             // btnPagos
@@ -461,9 +463,9 @@
             this.btnPagos.FlatAppearance.BorderSize = 0;
             this.btnPagos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
             this.btnPagos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPagos.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPagos.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.btnPagos.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnPagos.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.btnPagos.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_402;
             this.btnPagos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPagos.Location = new System.Drawing.Point(23, 226);
             this.btnPagos.Name = "btnPagos";
@@ -479,9 +481,9 @@
             this.btnRetiro.FlatAppearance.BorderSize = 0;
             this.btnRetiro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
             this.btnRetiro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRetiro.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRetiro.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.btnRetiro.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnRetiro.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.btnRetiro.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.btnRetiro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRetiro.Location = new System.Drawing.Point(21, 116);
             this.btnRetiro.Name = "btnRetiro";
@@ -497,9 +499,9 @@
             this.btnCortecias.FlatAppearance.BorderSize = 0;
             this.btnCortecias.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
             this.btnCortecias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCortecias.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCortecias.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.btnCortecias.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnCortecias.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.btnCortecias.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.btnCortecias.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCortecias.Location = new System.Drawing.Point(23, 172);
             this.btnCortecias.Name = "btnCortecias";
@@ -515,9 +517,9 @@
             this.btnCompras.FlatAppearance.BorderSize = 0;
             this.btnCompras.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
             this.btnCompras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCompras.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCompras.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.btnCompras.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnCompras.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.btnCompras.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.btnCompras.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCompras.Location = new System.Drawing.Point(21, 62);
             this.btnCompras.Name = "btnCompras";
@@ -533,9 +535,9 @@
             this.btnVenta.FlatAppearance.BorderSize = 0;
             this.btnVenta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
             this.btnVenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVenta.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVenta.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.btnVenta.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnVenta.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.btnVenta.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_402;
             this.btnVenta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnVenta.Location = new System.Drawing.Point(21, 8);
             this.btnVenta.Name = "btnVenta";
@@ -550,7 +552,7 @@
             // 
             this.btnCsesion.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnCsesion.Image = global::LaCrudaY_.Properties.Resources.icons8_salida_70__1_;
-            this.btnCsesion.Location = new System.Drawing.Point(63, 663);
+            this.btnCsesion.Location = new System.Drawing.Point(75, 663);
             this.btnCsesion.Name = "btnCsesion";
             this.btnCsesion.Size = new System.Drawing.Size(79, 75);
             this.btnCsesion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -563,9 +565,9 @@
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.OrangeRed;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button4.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.button4.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.Location = new System.Drawing.Point(23, 170);
             this.button4.Name = "button4";
@@ -581,9 +583,9 @@
             this.button11.FlatAppearance.BorderSize = 0;
             this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.OrangeRed;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button11.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button11.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.button11.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button11.Location = new System.Drawing.Point(23, 278);
             this.button11.Name = "button11";
@@ -599,9 +601,9 @@
             this.button12.FlatAppearance.BorderSize = 0;
             this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.OrangeRed;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button12.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button12.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.button12.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button12.Location = new System.Drawing.Point(21, 116);
             this.button12.Name = "button12";
@@ -617,9 +619,9 @@
             this.button13.FlatAppearance.BorderSize = 0;
             this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.OrangeRed;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button13.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button13.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.button13.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button13.Location = new System.Drawing.Point(23, 224);
             this.button13.Name = "button13";
@@ -635,9 +637,9 @@
             this.button14.FlatAppearance.BorderSize = 0;
             this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.OrangeRed;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button14.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button14.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.button14.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button14.Location = new System.Drawing.Point(21, 62);
             this.button14.Name = "button14";
@@ -653,9 +655,9 @@
             this.button15.FlatAppearance.BorderSize = 0;
             this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.OrangeRed;
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button15.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button15.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button15.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.button15.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_402;
             this.button15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button15.Location = new System.Drawing.Point(20, 8);
             this.button15.Name = "button15";
@@ -671,9 +673,9 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.button3.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.Location = new System.Drawing.Point(22, 163);
             this.button3.Name = "button3";
@@ -689,9 +691,9 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.button2.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(22, 109);
             this.button2.Name = "button2";
@@ -707,9 +709,9 @@
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button5.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.button5.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.Location = new System.Drawing.Point(22, 217);
             this.button5.Name = "button5";
@@ -725,9 +727,9 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.button1.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(21, 55);
             this.button1.Name = "button1";
@@ -743,9 +745,9 @@
             this.opc1.FlatAppearance.BorderSize = 0;
             this.opc1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
             this.opc1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.opc1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.opc1.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.opc1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.opc1.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.opc1.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.opc1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.opc1.Location = new System.Drawing.Point(22, 1);
             this.opc1.Name = "opc1";
@@ -761,9 +763,9 @@
             this.button16.FlatAppearance.BorderSize = 0;
             this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(193)))), ((int)(((byte)(106)))));
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button16.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button16.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button16.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.button16.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button16.Location = new System.Drawing.Point(23, 118);
             this.button16.Name = "button16";
@@ -779,9 +781,9 @@
             this.button17.FlatAppearance.BorderSize = 0;
             this.button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(193)))), ((int)(((byte)(106)))));
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button17.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button17.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button17.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.button17.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button17.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button17.Location = new System.Drawing.Point(23, 64);
             this.button17.Name = "button17";
@@ -797,9 +799,9 @@
             this.button18.FlatAppearance.BorderSize = 0;
             this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(193)))), ((int)(((byte)(106)))));
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button18.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button18.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button18.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.button18.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button18.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button18.Location = new System.Drawing.Point(23, 172);
             this.button18.Name = "button18";
@@ -815,9 +817,9 @@
             this.button20.FlatAppearance.BorderSize = 0;
             this.button20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(193)))), ((int)(((byte)(106)))));
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button20.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button20.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button20.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.button20.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button20.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button20.Location = new System.Drawing.Point(22, 8);
             this.button20.Name = "button20";
@@ -832,7 +834,7 @@
             // 
             this.btnEditarDatos.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnEditarDatos.Image = global::LaCrudaY_.Properties.Resources.icons8_config_70__1_;
-            this.btnEditarDatos.Location = new System.Drawing.Point(182, 663);
+            this.btnEditarDatos.Location = new System.Drawing.Point(194, 663);
             this.btnEditarDatos.Name = "btnEditarDatos";
             this.btnEditarDatos.Size = new System.Drawing.Size(80, 80);
             this.btnEditarDatos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -849,7 +851,7 @@
             this.btnVentasPunto.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnVentasPunto.Image = global::LaCrudaY_.Properties.Resources.icons8_grafico_40__1_;
             this.btnVentasPunto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVentasPunto.Location = new System.Drawing.Point(46, 448);
+            this.btnVentasPunto.Location = new System.Drawing.Point(54, 448);
             this.btnVentasPunto.Name = "btnVentasPunto";
             this.btnVentasPunto.Size = new System.Drawing.Size(298, 48);
             this.btnVentasPunto.TabIndex = 7;
@@ -985,6 +987,7 @@
             this.BarOpc.ResumeLayout(false);
             this.subMenuMov.ResumeLayout(false);
             this.subMenuRep.ResumeLayout(false);
+            this.panel24.ResumeLayout(false);
             this.subMenuAdmin.ResumeLayout(false);
             this.subMenuCat.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);

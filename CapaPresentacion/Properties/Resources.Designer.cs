@@ -163,6 +163,16 @@ namespace LaCrudaY_.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_basura_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-basura-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_bonus_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-bonus-50", resourceCulture);
@@ -253,9 +263,29 @@ namespace LaCrudaY_.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_configuración_del_administrador_402 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-configuración-del-administrador-402", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_configuración_del_administrador_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-configuración-del-administrador-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_editar_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-editar-50", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -286,6 +316,16 @@ namespace LaCrudaY_.Properties {
         internal static System.Drawing.Bitmap icons8_grafico_40__1_ {
             get {
                 object obj = ResourceManager.GetObject("icons8-grafico-40 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_guardar_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-guardar-50", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
