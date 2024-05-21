@@ -371,7 +371,7 @@ namespace CapaDatos
             // hacemos uso del procedure editar
             comando.CommandText = "actualizarHorario";
             comando.CommandType = CommandType.StoredProcedure;
-            comando.Parameters.AddWithValue("@turno", );
+            comando.Parameters.AddWithValue("@turno", turno);
             comando.Parameters.AddWithValue("@hEnt", HE);
             comando.Parameters.AddWithValue("@hSal", HS);
             comando.Parameters.AddWithValue("@id", id);
