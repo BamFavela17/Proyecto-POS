@@ -12,10 +12,51 @@ namespace CapaNegocio
         CD_Crud objCD = new CD_Crud(); 
 
         public DataTable MostrarEmp()
-        {
-              
+        {   
             DataTable tabla = new DataTable();
-            tabla = objCD.Mostrar();
+            tabla = objCD.MostrarEmp();
+            return tabla;
+        }
+        public DataTable Mostrarclientes()
+        {
+            DataTable tabla = new DataTable();
+            tabla = objCD.MostrarClientes();
+            return tabla;
+        }
+        public DataTable Mostrarproveedor()
+        {
+            DataTable tabla = new DataTable();
+            tabla = objCD.Mostrarproveedores();
+            return tabla;
+        }
+        public DataTable Mostrarpuesto()
+        {
+            DataTable tabla = new DataTable();
+            tabla = objCD.MostrarPuesto();
+            return tabla;
+        }
+        public DataTable Mostrarhorario()
+        {
+            DataTable tabla = new DataTable();
+            tabla = objCD.MostrarHorario();
+            return tabla;
+        }
+        public DataTable MostrarCategoria()
+        {
+            DataTable tabla = new DataTable();
+            tabla = objCD.MostrarCategorias();
+            return tabla;
+        }
+        public DataTable MostrarMateriales()
+        {
+            DataTable tabla = new DataTable();
+            tabla = objCD.MostrarMateriales();
+            return tabla;
+        }
+        public DataTable Mostrarplatillos()
+        {
+            DataTable tabla = new DataTable();
+            tabla = objCD.MostrarPlatillos();
             return tabla;
         }
         public void InsertarEmp(string nom, string ape, int tipo, DateTime fhN, DateTime fhC, string dir, string tel, string cor, int turno, string user, string pass)

@@ -59,17 +59,6 @@
             this.button14 = new System.Windows.Forms.Button();
             this.panel24 = new System.Windows.Forms.Panel();
             this.button15 = new System.Windows.Forms.Button();
-            this.subMenuAdmin = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.opc1 = new System.Windows.Forms.Button();
             this.subMenuCat = new System.Windows.Forms.Panel();
             this.panel26 = new System.Windows.Forms.Panel();
             this.button16 = new System.Windows.Forms.Button();
@@ -92,7 +81,20 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.Informacion = new System.Windows.Forms.PictureBox();
             this.btnAdministrar = new System.Windows.Forms.Button();
+            this.subMenuAdmin = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.opc1 = new System.Windows.Forms.Button();
             this.Contenido = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.btnHorario = new System.Windows.Forms.Button();
             this.BarrTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRelize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnM)).BeginInit();
@@ -102,11 +104,11 @@
             this.subMenuMov.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnCsesion)).BeginInit();
             this.subMenuRep.SuspendLayout();
-            this.subMenuAdmin.SuspendLayout();
             this.subMenuCat.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnEditarDatos)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Informacion)).BeginInit();
+            this.subMenuAdmin.SuspendLayout();
             this.SuspendLayout();
             // 
             // BarrTitulo
@@ -175,10 +177,10 @@
             // BarOpc
             // 
             this.BarOpc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.BarOpc.Controls.Add(this.subMenuAdmin);
             this.BarOpc.Controls.Add(this.subMenuMov);
             this.BarOpc.Controls.Add(this.btnCsesion);
             this.BarOpc.Controls.Add(this.subMenuRep);
-            this.BarOpc.Controls.Add(this.subMenuAdmin);
             this.BarOpc.Controls.Add(this.subMenuCat);
             this.BarOpc.Controls.Add(this.btnEditarDatos);
             this.BarOpc.Controls.Add(this.groupBox1);
@@ -534,154 +536,6 @@
             this.button15.UseVisualStyleBackColor = true;
             this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
-            // subMenuAdmin
-            // 
-            this.subMenuAdmin.Controls.Add(this.panel9);
-            this.subMenuAdmin.Controls.Add(this.button3);
-            this.subMenuAdmin.Controls.Add(this.panel8);
-            this.subMenuAdmin.Controls.Add(this.button2);
-            this.subMenuAdmin.Controls.Add(this.panel11);
-            this.subMenuAdmin.Controls.Add(this.button5);
-            this.subMenuAdmin.Controls.Add(this.panel7);
-            this.subMenuAdmin.Controls.Add(this.button1);
-            this.subMenuAdmin.Controls.Add(this.panel6);
-            this.subMenuAdmin.Controls.Add(this.opc1);
-            this.subMenuAdmin.Location = new System.Drawing.Point(308, 228);
-            this.subMenuAdmin.Name = "subMenuAdmin";
-            this.subMenuAdmin.Size = new System.Drawing.Size(259, 275);
-            this.subMenuAdmin.TabIndex = 0;
-            this.subMenuAdmin.Visible = false;
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel9.Location = new System.Drawing.Point(1, 163);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(20, 48);
-            this.panel9.TabIndex = 6;
-            // 
-            // button3
-            // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(22, 163);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(212, 48);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Platillos";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel8.Location = new System.Drawing.Point(1, 109);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(20, 48);
-            this.panel8.TabIndex = 6;
-            // 
-            // button2
-            // 
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(22, 109);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(212, 48);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Materiales";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel11.Location = new System.Drawing.Point(1, 217);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(20, 48);
-            this.panel11.TabIndex = 10;
-            // 
-            // button5
-            // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button5.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(22, 217);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(227, 48);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "Proveedores";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel7.Location = new System.Drawing.Point(0, 55);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(20, 48);
-            this.panel7.TabIndex = 6;
-            // 
-            // button1
-            // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(21, 55);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(211, 48);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Clientes";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel6.Location = new System.Drawing.Point(1, 1);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(20, 48);
-            this.panel6.TabIndex = 4;
-            // 
-            // opc1
-            // 
-            this.opc1.FlatAppearance.BorderSize = 0;
-            this.opc1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
-            this.opc1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.opc1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.opc1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.opc1.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
-            this.opc1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.opc1.Location = new System.Drawing.Point(22, 1);
-            this.opc1.Name = "opc1";
-            this.opc1.Size = new System.Drawing.Size(212, 48);
-            this.opc1.TabIndex = 3;
-            this.opc1.Text = "Empleados";
-            this.opc1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.opc1.UseVisualStyleBackColor = true;
-            this.opc1.Click += new System.EventHandler(this.opc1_Click);
-            // 
             // subMenuCat
             // 
             this.subMenuCat.Controls.Add(this.panel26);
@@ -807,9 +661,9 @@
             // 
             this.btnEditarDatos.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnEditarDatos.Image = global::LaCrudaY_.Properties.Resources.Ajustes;
-            this.btnEditarDatos.Location = new System.Drawing.Point(182, 663);
+            this.btnEditarDatos.Location = new System.Drawing.Point(190, 663);
             this.btnEditarDatos.Name = "btnEditarDatos";
-            this.btnEditarDatos.Size = new System.Drawing.Size(80, 80);
+            this.btnEditarDatos.Size = new System.Drawing.Size(77, 75);
             this.btnEditarDatos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnEditarDatos.TabIndex = 12;
             this.btnEditarDatos.TabStop = false;
@@ -959,6 +813,157 @@
             this.btnAdministrar.UseVisualStyleBackColor = true;
             this.btnAdministrar.Click += new System.EventHandler(this.btnAdministrar_Click);
             // 
+            // subMenuAdmin
+            // 
+            this.subMenuAdmin.Controls.Add(this.panel5);
+            this.subMenuAdmin.Controls.Add(this.btnHorario);
+            this.subMenuAdmin.Controls.Add(this.panel6);
+            this.subMenuAdmin.Controls.Add(this.panel8);
+            this.subMenuAdmin.Controls.Add(this.button3);
+            this.subMenuAdmin.Controls.Add(this.panel7);
+            this.subMenuAdmin.Controls.Add(this.button2);
+            this.subMenuAdmin.Controls.Add(this.panel11);
+            this.subMenuAdmin.Controls.Add(this.button5);
+            this.subMenuAdmin.Controls.Add(this.panel9);
+            this.subMenuAdmin.Controls.Add(this.button1);
+            this.subMenuAdmin.Controls.Add(this.opc1);
+            this.subMenuAdmin.Location = new System.Drawing.Point(308, 218);
+            this.subMenuAdmin.Name = "subMenuAdmin";
+            this.subMenuAdmin.Size = new System.Drawing.Size(257, 338);
+            this.subMenuAdmin.TabIndex = 0;
+            this.subMenuAdmin.Visible = false;
+            this.subMenuAdmin.Paint += new System.Windows.Forms.PaintEventHandler(this.subMenuAdmin_Paint);
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel9.Location = new System.Drawing.Point(2, 172);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(20, 48);
+            this.panel9.TabIndex = 6;
+            // 
+            // button3
+            // 
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button3.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(21, 172);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(226, 48);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "Platillos";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel8.Location = new System.Drawing.Point(2, 118);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(20, 48);
+            this.panel8.TabIndex = 6;
+            // 
+            // button2
+            // 
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button2.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(21, 118);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(226, 48);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Materiales";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel11.Location = new System.Drawing.Point(2, 226);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(20, 48);
+            this.panel11.TabIndex = 10;
+            // 
+            // button5
+            // 
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button5.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(21, 227);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(226, 48);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "Proveedores";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel7.Location = new System.Drawing.Point(2, 64);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(20, 48);
+            this.panel7.TabIndex = 6;
+            // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button1.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(20, 64);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(227, 48);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Clientes";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel6.Location = new System.Drawing.Point(2, 10);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(20, 48);
+            this.panel6.TabIndex = 4;
+            // 
+            // opc1
+            // 
+            this.opc1.FlatAppearance.BorderSize = 0;
+            this.opc1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
+            this.opc1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.opc1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.opc1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.opc1.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.opc1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.opc1.Location = new System.Drawing.Point(21, 10);
+            this.opc1.Name = "opc1";
+            this.opc1.Size = new System.Drawing.Size(226, 48);
+            this.opc1.TabIndex = 3;
+            this.opc1.Text = "Empleados";
+            this.opc1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.opc1.UseVisualStyleBackColor = true;
+            this.opc1.Click += new System.EventHandler(this.opc1_Click);
+            // 
             // Contenido
             // 
             this.Contenido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
@@ -967,6 +972,33 @@
             this.Contenido.Name = "Contenido";
             this.Contenido.Size = new System.Drawing.Size(1150, 750);
             this.Contenido.TabIndex = 1;
+            this.Contenido.Paint += new System.Windows.Forms.PaintEventHandler(this.Contenido_Paint);
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel5.Location = new System.Drawing.Point(2, 280);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(20, 48);
+            this.panel5.TabIndex = 12;
+            // 
+            // btnHorario
+            // 
+            this.btnHorario.FlatAppearance.BorderSize = 0;
+            this.btnHorario.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(200)))));
+            this.btnHorario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHorario.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHorario.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnHorario.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_40;
+            this.btnHorario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHorario.Location = new System.Drawing.Point(23, 281);
+            this.btnHorario.Name = "btnHorario";
+            this.btnHorario.Size = new System.Drawing.Size(224, 48);
+            this.btnHorario.TabIndex = 11;
+            this.btnHorario.Text = "Horarios";
+            this.btnHorario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnHorario.UseVisualStyleBackColor = true;
+            this.btnHorario.Click += new System.EventHandler(this.btnHorario_Click);
             // 
             // FromPrincipal
             // 
@@ -990,12 +1022,12 @@
             this.subMenuMov.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnCsesion)).EndInit();
             this.subMenuRep.ResumeLayout(false);
-            this.subMenuAdmin.ResumeLayout(false);
             this.subMenuCat.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnEditarDatos)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Informacion)).EndInit();
+            this.subMenuAdmin.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1067,5 +1099,7 @@
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Panel panel30;
         private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Button btnHorario;
     }
 }

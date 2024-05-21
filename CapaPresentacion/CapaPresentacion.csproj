@@ -57,11 +57,17 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Catalogo\HorarioCat.cs">
+    <Compile Include="Catalogo\Clientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Catalogo\HorarioCat.Designer.cs">
-      <DependentUpon>HorarioCat.cs</DependentUpon>
+    <Compile Include="Catalogo\Clientes.Designer.cs">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo\EmpleadoCat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogo\EmpleadoCat.Designer.cs">
+      <DependentUpon>EmpleadoCat.cs</DependentUpon>
     </Compile>
     <Compile Include="Catalogo\PatilloCat.cs">
       <SubType>Form</SubType>
@@ -215,14 +221,20 @@
     <Compile Include="Reportes\RepVentas.Designer.cs">
       <DependentUpon>RepVentas.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Catalogo\Clientes.resx">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogo\EmpleadoCat.resx">
+      <DependentUpon>EmpleadoCat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CRUD\CRUDclientes.resx">
       <DependentUpon>CRUDclientes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\CRUDcompras.resx">
+      <DependentUpon>CRUDcompras.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CRUD\CRUDempleado.resx">
       <DependentUpon>CRUDempleado.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Catalogo\HorarioCat.resx">
-      <DependentUpon>HorarioCat.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Catalogo\MaterialesCat.resx">
       <DependentUpon>MaterialesCat.cs</DependentUpon>
