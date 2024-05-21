@@ -35,6 +35,9 @@ C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\bin\Debug\CapaDato
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\CapaPres.61CA7C38.Up2Date
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\bin\Debug\CapaSoporte.dll
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\bin\Debug\CapaSoporte.pdb
+<<<<<<< HEAD
+C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.Principal.AjusteUsuario.resources
+=======
 C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaPresentacion\bin\Debug\LaCrudaY+.exe.config
 C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaPresentacion\bin\Debug\LaCrudaY+.exe
 C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaPresentacion\bin\Debug\LaCrudaY+.pdb
@@ -73,3 +76,4 @@ C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaPresentacion\obj\Debug\C
 C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaPresentacion\obj\Debug\CapaPres.61CA7C38.Up2Date
 C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaPresentacion\obj\Debug\LaCrudaY+.exe
 C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaPresentacion\obj\Debug\LaCrudaY+.pdb
+>>>>>>> 357a377015358ee1fa8cecb0913400798bdb6c33
