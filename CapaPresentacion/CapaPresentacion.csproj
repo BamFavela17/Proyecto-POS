@@ -462,5 +462,14 @@
   <ItemGroup>
     <None Include="Resources\icons8-editar-50.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MaterialSymbolsMenuBookOutline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MaterialSymbolsMenuBookOutline %281%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcOutlineRestaurantMenu %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

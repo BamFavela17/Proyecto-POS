@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|c:\\users\\dell inspirion 5594\\documents\\proyecto-pos\\capapresentacion\\catalogo\\proveedorcat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:catalogo\\proveedorcat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|c:\\users\\dell inspirion 5594\\documents\\proyecto-pos\\capapresentacion\\catalogo\\patillocat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:catalogo\\patillocat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|c:\\users\\dell inspirion 5594\\documents\\proyecto-pos\\capapresentacion\\catalogo\\materialescat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:catalogo\\materialescat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|c:\\users\\dell inspirion 5594\\documents\\proyecto-pos\\capapresentacion\\catalogo\\horariocat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:catalogo\\horariocat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|c:\\users\\dell inspirion 5594\\documents\\proyecto-pos\\capapresentacion\\crud\\crudempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:crud\\crudempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\principal\\fromprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:principal\\fromprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|c:\\users\\dell inspirion 5594\\documents\\proyecto-pos\\capapresentacion\\crud\\crudventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:crud\\crudventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\principal\\ajusteusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:principal\\ajusteusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\principal\\fromacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:principal\\fromacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|c:\\users\\dell inspirion 5594\\documents\\proyecto-pos\\capapresentacion\\crud\\crudclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:crud\\crudclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,48 +42,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FromAcceso.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Principal\\FromAcceso.cs",
-              "RelativeDocumentMoniker": "Principal\\FromAcceso.cs",
-              "ToolTip": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Principal\\FromAcceso.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Principal\\FromAcceso.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T23:18:39.095Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AjusteUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Principal\\AjusteUsuario.cs",
-              "RelativeDocumentMoniker": "Principal\\AjusteUsuario.cs",
-              "ToolTip": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Principal\\AjusteUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Principal\\AjusteUsuario.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:57:30.155Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FromPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Principal\\FromPrincipal.cs",
-              "RelativeDocumentMoniker": "Principal\\FromPrincipal.cs",
-              "ToolTip": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Principal\\FromPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Principal\\FromPrincipal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T22:44:39.812Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CRUDempleado.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\CRUD\\CRUDempleado.cs",
               "RelativeDocumentMoniker": "CRUD\\CRUDempleado.cs",
@@ -79,6 +50,78 @@
               "RelativeToolTip": "CRUD\\CRUDempleado.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T23:18:22.909Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HorarioCat.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Catalogo\\HorarioCat.cs",
+              "RelativeDocumentMoniker": "Catalogo\\HorarioCat.cs",
+              "ToolTip": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Catalogo\\HorarioCat.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Catalogo\\HorarioCat.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T03:33:19.34Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MaterialesCat.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Catalogo\\MaterialesCat.cs",
+              "RelativeDocumentMoniker": "Catalogo\\MaterialesCat.cs",
+              "ToolTip": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Catalogo\\MaterialesCat.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Catalogo\\MaterialesCat.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T03:33:20.895Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatilloCat.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Catalogo\\PatilloCat.cs",
+              "RelativeDocumentMoniker": "Catalogo\\PatilloCat.cs",
+              "ToolTip": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Catalogo\\PatilloCat.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Catalogo\\PatilloCat.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T03:33:21.92Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProveedorCAt.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Catalogo\\ProveedorCAt.cs",
+              "RelativeDocumentMoniker": "Catalogo\\ProveedorCAt.cs",
+              "ToolTip": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Catalogo\\ProveedorCAt.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Catalogo\\ProveedorCAt.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T03:33:23.168Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CRUDventas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\CRUD\\CRUDventas.cs",
+              "RelativeDocumentMoniker": "CRUD\\CRUDventas.cs",
+              "ToolTip": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\CRUD\\CRUDventas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CRUD\\CRUDventas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T03:33:40.566Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CRUDclientes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\CRUD\\CRUDclientes.cs",
+              "RelativeDocumentMoniker": "CRUD\\CRUDclientes.cs",
+              "ToolTip": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\CRUD\\CRUDclientes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CRUD\\CRUDclientes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T03:33:25.754Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

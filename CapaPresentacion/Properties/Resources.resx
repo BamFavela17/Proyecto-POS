@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="proveedores" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\proveedores.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-botón-maximizar-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-botón-maximizar-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="empleados" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\empleados.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="error_24dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\error_24dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,8 +181,14 @@
   <data name="icons8-view-40" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-view-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8-intereses-de-tarjeta-de-crédito-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-intereses-de-tarjeta-de-crédito-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-receive-dollar-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-receive-dollar-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-editar-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-editar-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-restore-window-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-restore-window-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -192,6 +198,9 @@
   </data>
   <data name="icons8-grafico-40" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-grafico-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MaterialSymbolsMenuBookOutline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MaterialSymbolsMenuBookOutline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-statistics-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-statistics-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,8 +223,8 @@
   <data name="visibility_24dp_FILL0_wght400_GRAD0_opsz24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\visibility_24dp_FILL0_wght400_GRAD0_opsz24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logoredondopng" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logoredondopng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-grafico-40 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-grafico-40 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logoAdmin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logoAdmin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,8 +238,8 @@
   <data name="visibility_off_24dp_FILL0_wght400_GRAD0_opsz24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\visibility_off_24dp_FILL0_wght400_GRAD0_opsz24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="proveedores" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\proveedores.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logoredondopng" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoredondopng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-cash-register-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-cash-register-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -253,14 +262,14 @@
   <data name="apagado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\apagado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-grafico-40 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-grafico-40 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MaterialSymbolsMenuBookOutline (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MaterialSymbolsMenuBookOutline (1) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-compra-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-compra-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-intereses-de-tarjeta-de-crédito-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-intereses-de-tarjeta-de-crédito-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="empleados" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\empleados.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-reloj-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-reloj-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -271,7 +280,7 @@
   <data name="save_48dp_FILL0_wght400_GRAD0_opsz48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\save_48dp_FILL0_wght400_GRAD0_opsz48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-editar-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-editar-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IcOutlineRestaurantMenu (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcOutlineRestaurantMenu (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

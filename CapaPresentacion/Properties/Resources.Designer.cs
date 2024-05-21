@@ -473,6 +473,16 @@ namespace LaCrudaY_.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap IcOutlineRestaurantMenu__1_ {
+            get {
+                object obj = ResourceManager.GetObject("IcOutlineRestaurantMenu (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logoAdmin {
             get {
                 object obj = ResourceManager.GetObject("logoAdmin", resourceCulture);
@@ -496,6 +506,26 @@ namespace LaCrudaY_.Properties {
         internal static System.Drawing.Bitmap material {
             get {
                 object obj = ResourceManager.GetObject("material", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MaterialSymbolsMenuBookOutline {
+            get {
+                object obj = ResourceManager.GetObject("MaterialSymbolsMenuBookOutline", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MaterialSymbolsMenuBookOutline__1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("MaterialSymbolsMenuBookOutline (1) (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
