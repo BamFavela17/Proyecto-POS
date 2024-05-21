@@ -1,7 +1,6 @@
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.CRUD.CRUDclientes.resources
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.CRUDempleado.resources
-C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.Catalogo.HorarioCat.resources
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.Catalogo.Materiales.resources
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.Catalogo.PatilloCat.resources
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.Catalogo.ProveedorCAt.resources
@@ -36,3 +35,6 @@ C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\CapaPres
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\bin\Debug\CapaSoporte.dll
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\bin\Debug\CapaSoporte.pdb
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.Principal.AjusteUsuario.resources
+C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.Catalogo.EmpleadoCat.resources
+C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.Catalogo.Clientes.resources
+C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.CRUD.CRUDcompras.resources

@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tblProveedor = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblProveedor)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -47,25 +47,26 @@
             this.panel1.Size = new System.Drawing.Size(1074, 100);
             this.panel1.TabIndex = 0;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(331, 40);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(377, 34);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Catalogo de Proveedores:";
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.dataGridView1);
+            this.panel2.Controls.Add(this.tblProveedor);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 100);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1074, 618);
             this.panel2.TabIndex = 1;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(75, 67);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(924, 507);
-            this.dataGridView1.TabIndex = 0;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // label1
             // 
@@ -76,16 +77,17 @@
             this.label1.Size = new System.Drawing.Size(233, 23);
             this.label1.TabIndex = 1;
             this.label1.Text = "Tabla de Proveedores:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // tblProveedor
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(331, 40);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(377, 34);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Catalogo de Proveedores:";
+            this.tblProveedor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tblProveedor.Location = new System.Drawing.Point(37, 68);
+            this.tblProveedor.Name = "tblProveedor";
+            this.tblProveedor.RowHeadersWidth = 51;
+            this.tblProveedor.RowTemplate.Height = 24;
+            this.tblProveedor.Size = new System.Drawing.Size(1005, 507);
+            this.tblProveedor.TabIndex = 0;
             // 
             // ProveedorCAt
             // 
@@ -102,7 +104,7 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblProveedor)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -113,6 +115,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView tblProveedor;
     }
 }

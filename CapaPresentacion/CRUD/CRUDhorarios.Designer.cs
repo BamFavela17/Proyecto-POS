@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnExit = new System.Windows.Forms.PictureBox();
+            this.btnM = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tblHorarios = new System.Windows.Forms.DataGridView();
-            this.btnM = new System.Windows.Forms.PictureBox();
-            this.btnExit = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnM)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tblHorarios)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnM)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -50,24 +50,16 @@
             this.panel1.Size = new System.Drawing.Size(1092, 40);
             this.panel1.TabIndex = 0;
             // 
-            // panel2
+            // btnExit
             // 
-            this.panel2.Controls.Add(this.tblHorarios);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 40);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1092, 390);
-            this.panel2.TabIndex = 1;
-            // 
-            // tblHorarios
-            // 
-            this.tblHorarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tblHorarios.Location = new System.Drawing.Point(363, 45);
-            this.tblHorarios.Name = "tblHorarios";
-            this.tblHorarios.RowHeadersWidth = 51;
-            this.tblHorarios.RowTemplate.Height = 24;
-            this.tblHorarios.Size = new System.Drawing.Size(676, 317);
-            this.tblHorarios.TabIndex = 0;
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExit.Image = global::LaCrudaY_.Properties.Resources.icons8_cerrar_ventana_24;
+            this.btnExit.Location = new System.Drawing.Point(1049, 0);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(40, 40);
+            this.btnExit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnExit.TabIndex = 4;
+            this.btnExit.TabStop = false;
             // 
             // btnM
             // 
@@ -80,16 +72,24 @@
             this.btnM.TabIndex = 3;
             this.btnM.TabStop = false;
             // 
-            // btnExit
+            // panel2
             // 
-            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExit.Image = global::LaCrudaY_.Properties.Resources.icons8_cerrar_ventana_24;
-            this.btnExit.Location = new System.Drawing.Point(1049, 0);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(40, 40);
-            this.btnExit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnExit.TabIndex = 4;
-            this.btnExit.TabStop = false;
+            this.panel2.Controls.Add(this.tblHorarios);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 40);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1092, 407);
+            this.panel2.TabIndex = 1;
+            // 
+            // tblHorarios
+            // 
+            this.tblHorarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tblHorarios.Location = new System.Drawing.Point(363, 45);
+            this.tblHorarios.Name = "tblHorarios";
+            this.tblHorarios.RowHeadersWidth = 51;
+            this.tblHorarios.RowTemplate.Height = 24;
+            this.tblHorarios.Size = new System.Drawing.Size(676, 317);
+            this.tblHorarios.TabIndex = 0;
             // 
             // CRUDhorarios
             // 
@@ -103,10 +103,10 @@
             this.Text = "CRUDhorarios";
             this.Load += new System.EventHandler(this.CRUDhorarios_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnExit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnM)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tblHorarios)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnM)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnExit)).EndInit();
             this.ResumeLayout(false);
 
         }

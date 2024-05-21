@@ -183,7 +183,7 @@ namespace LaCrudaY_.Principal
 
         private void button20_Click(object sender, EventArgs e)
         {
-            abrirFormHijo(new HorarioCat());
+            abrirFormHijo(new EmpleadoCat());
             BarOpc.Size = new System.Drawing.Size(260, 750);
             subMenuCat.Visible = false;
         }
@@ -289,7 +289,24 @@ namespace LaCrudaY_.Principal
 
         private void btnEditarDatos_Click(object sender, EventArgs e)
         {
+            abrirFormHijo(new AjusteUsuario());
+        }
 
+        private void Contenido_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void subMenuAdmin_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnHorario_Click(object sender, EventArgs e)
+        {
+            abrirFormHijo(new CRUDhorarios());
+            subMenuAdmin.Visible = false;
+            BarOpc.Size = new System.Drawing.Size(260, 750);
         }
     }
 }
