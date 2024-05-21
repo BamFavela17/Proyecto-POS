@@ -1,6 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\",
+<<<<<<< HEAD
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\catalogo\\horariocat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -79,6 +80,9 @@
       "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:crud\\crudclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
+=======
+  "Documents": [],
+>>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -86,11 +90,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 4,
+=======
+          "SelectedChildIndex": -1,
+>>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+<<<<<<< HEAD
             },
             {
               "$type": "Document",
@@ -311,6 +320,8 @@
               "RelativeToolTip": "CRUD\\CRUDclientes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T22:20:45.362Z"
+=======
+>>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569
             }
           ]
         }

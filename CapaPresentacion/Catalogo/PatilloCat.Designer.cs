@@ -31,6 +31,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+<<<<<<< HEAD
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -38,6 +39,13 @@
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+=======
+            this.tblPlatillo = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tblPlatillo)).BeginInit();
+>>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569
             this.SuspendLayout();
             // 
             // panel2
@@ -64,8 +72,12 @@
             // 
             // panel1
             // 
+<<<<<<< HEAD
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(182)))), ((int)(((byte)(154)))));
             this.panel1.Controls.Add(this.dataGridView1);
+=======
+            this.panel1.Controls.Add(this.tblPlatillo);
+>>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 80);
@@ -73,6 +85,7 @@
             this.panel1.Size = new System.Drawing.Size(1074, 638);
             this.panel1.TabIndex = 3;
             // 
+<<<<<<< HEAD
             // dataGridView1
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(217)))), ((int)(((byte)(140)))));
@@ -83,6 +96,28 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(902, 531);
             this.dataGridView1.TabIndex = 1;
+=======
+            // tblPlatillo
+            // 
+            this.tblPlatillo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tblPlatillo.Location = new System.Drawing.Point(82, 73);
+            this.tblPlatillo.Name = "tblPlatillo";
+            this.tblPlatillo.RowHeadersWidth = 51;
+            this.tblPlatillo.RowTemplate.Height = 24;
+            this.tblPlatillo.Size = new System.Drawing.Size(902, 531);
+            this.tblPlatillo.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(100, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(181, 23);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Tabla de Platillos:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+>>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569
             // 
             // label1
             // 
@@ -119,8 +154,12 @@
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.tblPlatillo)).EndInit();
+>>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569
             this.ResumeLayout(false);
 
         }
@@ -130,7 +169,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView tblPlatillo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
     }

@@ -17,7 +17,7 @@ namespace LaCrudaY_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FromAcceso());
+            Application.Run(new LaCrudaY_.Principal.FromPrincipal());
         }
     }
 }

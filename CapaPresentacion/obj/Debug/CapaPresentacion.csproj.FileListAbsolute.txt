@@ -1,7 +1,6 @@
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.CRUD.CRUDclientes.resources
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.CRUDempleado.resources
-C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.Catalogo.HorarioCat.resources
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.Catalogo.Materiales.resources
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.Catalogo.PatilloCat.resources
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.Catalogo.ProveedorCAt.resources
@@ -37,6 +36,7 @@ C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\bin\Debug\CapaSopo
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\bin\Debug\CapaSoporte.pdb
 <<<<<<< HEAD
 C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.Principal.AjusteUsuario.resources
+<<<<<<< HEAD
 =======
 C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaPresentacion\bin\Debug\LaCrudaY+.exe.config
 C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaPresentacion\bin\Debug\LaCrudaY+.exe
@@ -77,3 +77,8 @@ C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaPresentacion\obj\Debug\C
 C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaPresentacion\obj\Debug\LaCrudaY+.exe
 C:\Users\Dell Inspirion 5594\Documents\Proyecto-POS\CapaPresentacion\obj\Debug\LaCrudaY+.pdb
 >>>>>>> 357a377015358ee1fa8cecb0913400798bdb6c33
+=======
+C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.Catalogo.EmpleadoCat.resources
+C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.Catalogo.Clientes.resources
+C:\Users\favel\OneDrive\Desktop\proyecto_Pos\CapaPresentacion\obj\Debug\LaCrudaY_.CRUD.CRUDcompras.resources
+>>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569

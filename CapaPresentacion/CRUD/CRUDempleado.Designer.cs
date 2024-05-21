@@ -60,10 +60,13 @@
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.tblUser = new System.Windows.Forms.DataGridView();
+<<<<<<< HEAD
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnEditar = new System.Windows.Forms.PictureBox();
             this.btnBorrar = new System.Windows.Forms.PictureBox();
             this.btnGuardar = new System.Windows.Forms.PictureBox();
+=======
+>>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -125,6 +128,21 @@
             this.btnHorario.UseVisualStyleBackColor = true;
             this.btnHorario.Click += new System.EventHandler(this.button1_Click);
             // 
+<<<<<<< HEAD
+=======
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = global::LaCrudaY_.Properties.Resources.icons8_google_web_search_50;
+            this.pictureBox1.Location = new System.Drawing.Point(775, 18);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+>>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569
             // txtBuscar
             // 
             this.txtBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -194,7 +212,10 @@
             // txtPuesto
             // 
             this.txtPuesto.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+<<<<<<< HEAD
             this.txtPuesto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(201)))), ((int)(((byte)(215)))));
+=======
+>>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569
             this.txtPuesto.Location = new System.Drawing.Point(896, 60);
             this.txtPuesto.Name = "txtPuesto";
             this.txtPuesto.Size = new System.Drawing.Size(100, 32);
@@ -411,17 +432,27 @@
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label1.AutoSize = true;
+<<<<<<< HEAD
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(26, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(36, 23);
+=======
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(26, 34);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 23);
+>>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569
             this.label1.TabIndex = 0;
             this.label1.Text = "ID:";
             // 
             // txtID
             // 
             this.txtID.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+<<<<<<< HEAD
             this.txtID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(201)))), ((int)(((byte)(215)))));
+=======
+>>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569
             this.txtID.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtID.Location = new System.Drawing.Point(30, 60);
             this.txtID.Name = "txtID";
@@ -466,6 +497,7 @@
             this.tblUser.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tblUser_CellClick);
             this.tblUser.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tblUser_CellContentClick);
             // 
+<<<<<<< HEAD
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -516,6 +548,8 @@
             this.btnGuardar.TabStop = false;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click_1);
             // 
+=======
+>>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569
             // CRUDempleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);

@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using CapaNegocio;
 namespace LaCrudaY_.CRUD
 {
     public partial class CRUDclientes : Form
@@ -25,7 +26,13 @@ namespace LaCrudaY_.CRUD
 
         private void CRUDclientes_Load(object sender, EventArgs e)
         {
-           
+           CN_Crud clientes = new CN_Crud();
+            tblClientes.DataSource = clientes.Mostrarclientes();
+        }
+
+        private void tblClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
