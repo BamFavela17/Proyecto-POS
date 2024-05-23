@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.ConstrainedExecution;
+using CapaSoporte;
 namespace CapaDatos
 {
     public class CD_Crud
@@ -493,7 +494,7 @@ namespace CapaDatos
 
             comando.Parameters.Clear();
         }
-        public void EditarDetalleVenta(int venta,int idProd, int idemp, decimal precio, int cant, decimal importe, string id)
+        public void EditarDetalleVenta(int venta, int idProd, int idemp, decimal precio, int cant, decimal importe, string id)
         {
             // abrimos conexion 
             comando.Connection = conn.AbrirConexion();
@@ -697,5 +698,6 @@ namespace CapaDatos
 
             comando.Parameters.Clear();
         }
+        
     }
 }

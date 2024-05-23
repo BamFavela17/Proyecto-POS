@@ -15,6 +15,7 @@ using System.Windows.Forms;
 using CapaNegocio;
 using LaCrudaY_.CRUD;
 using LaCrudaY_.Principal;
+using CapaSoporte;
 
 namespace LaCrudaY_
 {
@@ -31,8 +32,9 @@ namespace LaCrudaY_
         private void CRUDempleado_Load(object sender, EventArgs e)
         {
             MostrarEmpleados();
-
+            
         }
+        
         public void MostrarEmpleados()
         {
             CN_Crud obj = new CN_Crud();
@@ -57,8 +59,8 @@ namespace LaCrudaY_
 
         private void btnGuardar_Click_1(object sender, EventArgs e)
         {
-
-            int tipo = Convert.ToInt16(txtPuesto.Text),turno= Convert.ToInt16(txtTurno.Text);
+           
+            int tipo = cmbPuesto.SelectedIndex ,turno= Convert.ToInt16(txtTurno.Text);
             string nom= txtNombre.Text, ape= txtApellido.Text, dir = txtDir.Text, tel=txtTel.Text,cor=txtCorreo.Text,user=txtuser.Text,pass=txtpass.Text;
             DateTime fhN = DateTime.Parse(txtFHN.Text), fhC = DateTime.Parse(txtFHC.Text);
             //INSERTAR
@@ -102,7 +104,6 @@ namespace LaCrudaY_
           
             txtNombre.Clear();
             txtApellido.Clear();
-          txtPuesto.Clear(); 
             txtCorreo.Clear();
             txtDir.Clear();
             txtTel.Clear();
@@ -133,10 +134,12 @@ namespace LaCrudaY_
         {
             if (tblUser.SelectedRows.Count > 0)
             {
+                DataGridViewRow currentRow = tblUser.SelectedRows[0];
+                int index = currentRow.Index;
                 Editar = true;
                 txtNombre.Text = tblUser.CurrentRow.Cells["Nombres"].Value.ToString();
                 txtApellido.Text = tblUser.CurrentRow.Cells["Apellidos"].Value.ToString();
-                txtPuesto.Text = tblUser.CurrentRow.Cells["idPuesto"].Value.ToString();
+                cmbPuesto.SelectedIndex = Convert.ToInt32(tblUser.Rows[index].Cells["idPuesto"].Value);
                 txtFHN.Text = tblUser.CurrentRow.Cells["FhNa"].Value.ToString();
                 txtFHC.Text = tblUser.CurrentRow.Cells["FhCon"].Value.ToString();
                 txtDir.Text = tblUser.CurrentRow.Cells["Dir"].Value.ToString();
@@ -159,6 +162,21 @@ namespace LaCrudaY_
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtuser_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
         {
 
         }
