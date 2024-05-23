@@ -6,12 +6,15 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 using System.Windows.Forms;
 
 namespace LaCrudaY_.PuntoVenta
 {
+    
     public partial class Caja : Form
     {
+        decimal t=0, d = 0, c = 0;
         public Caja()
         {
             InitializeComponent();
@@ -21,6 +24,7 @@ namespace LaCrudaY_.PuntoVenta
         {
 
         }
+       
 
         private void Tiempo_Tick(object sender, EventArgs e)
         {
@@ -49,6 +53,11 @@ namespace LaCrudaY_.PuntoVenta
         }
 
         private void tblPlatillo_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void LblDesc_Click(object sender, EventArgs e)
         {
 
         }

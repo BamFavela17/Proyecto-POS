@@ -59,11 +59,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtID = new System.Windows.Forms.TextBox();
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.tblUser = new System.Windows.Forms.DataGridView();
+            this.cmbPuesto = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -165,6 +164,7 @@
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.groupBox1.Controls.Add(this.cmbPuesto);
             this.groupBox1.Controls.Add(this.txtPuesto);
             this.groupBox1.Controls.Add(this.label15);
             this.groupBox1.Controls.Add(this.txtCorreo);
@@ -188,8 +188,6 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.txtID);
             this.groupBox1.Controls.Add(this.txtApellido);
             this.groupBox1.Controls.Add(this.txtNombre);
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -338,7 +336,7 @@
             this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(785, 35);
+            this.label10.Location = new System.Drawing.Point(687, 35);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(79, 23);
             this.label10.TabIndex = 10;
@@ -349,7 +347,7 @@
             this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(61, 183);
+            this.label9.Location = new System.Drawing.Point(26, 183);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(98, 23);
             this.label9.TabIndex = 8;
@@ -370,7 +368,7 @@
             // 
             this.txtTurno.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtTurno.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTurno.Location = new System.Drawing.Point(789, 60);
+            this.txtTurno.Location = new System.Drawing.Point(691, 60);
             this.txtTurno.Name = "txtTurno";
             this.txtTurno.Size = new System.Drawing.Size(87, 32);
             this.txtTurno.TabIndex = 10;
@@ -401,9 +399,9 @@
             // 
             this.txtTel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtTel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTel.Location = new System.Drawing.Point(65, 209);
+            this.txtTel.Location = new System.Drawing.Point(30, 209);
             this.txtTel.Name = "txtTel";
-            this.txtTel.Size = new System.Drawing.Size(231, 32);
+            this.txtTel.Size = new System.Drawing.Size(266, 32);
             this.txtTel.TabIndex = 9;
             // 
             // txtDir
@@ -431,7 +429,7 @@
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(458, 34);
+            this.label3.Location = new System.Drawing.Point(344, 35);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(97, 23);
             this.label3.TabIndex = 2;
@@ -442,37 +440,17 @@
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(137, 34);
+            this.label2.Location = new System.Drawing.Point(23, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(95, 23);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nombre:";
             // 
-            // label1
-            // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(26, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "ID:";
-            // 
-            // txtID
-            // 
-            this.txtID.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.txtID.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtID.Location = new System.Drawing.Point(30, 60);
-            this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(86, 32);
-            this.txtID.TabIndex = 1;
-            // 
             // txtApellido
             // 
             this.txtApellido.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtApellido.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellido.Location = new System.Drawing.Point(462, 60);
+            this.txtApellido.Location = new System.Drawing.Point(348, 61);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(300, 32);
             this.txtApellido.TabIndex = 3;
@@ -481,7 +459,7 @@
             // 
             this.txtNombre.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtNombre.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.Location = new System.Drawing.Point(141, 60);
+            this.txtNombre.Location = new System.Drawing.Point(27, 61);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(300, 32);
             this.txtNombre.TabIndex = 2;
@@ -502,6 +480,14 @@
             this.tblUser.TabIndex = 0;
             this.tblUser.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tblUser_CellClick);
             this.tblUser.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tblUser_CellContentClick);
+            // 
+            // cmbPuesto
+            // 
+            this.cmbPuesto.FormattingEnabled = true;
+            this.cmbPuesto.Location = new System.Drawing.Point(636, 137);
+            this.cmbPuesto.Name = "cmbPuesto";
+            this.cmbPuesto.Size = new System.Drawing.Size(121, 31);
+            this.cmbPuesto.TabIndex = 23;
             // 
             // CRUDempleado
             // 
@@ -565,7 +551,6 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TextBox txtCorreo;
         private System.Windows.Forms.TextBox txtPuesto;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.ComboBox cmbPuesto;
     }
 }
