@@ -24,5 +24,25 @@ namespace LaCrudaY_.CRUD
            CN_Crud n = new CN_Crud();
             tblHorarios.DataSource = n.Mostrarhorario();
         }
+
+        private void tblHorarios_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBorrar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
