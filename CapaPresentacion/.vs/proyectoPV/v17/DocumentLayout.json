@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\favel\\OneDrive\\Desktop\\proyecto_Pos\\CapaPresentacion\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|c:\\users\\dell inspirion 5594\\documents\\proyecto-pos\\capapresentacion\\principal\\fromacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:principal\\fromacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\principal\\fromprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:principal\\fromprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,15 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FromAcceso.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Principal\\FromAcceso.cs",
+              "RelativeDocumentMoniker": "Principal\\FromAcceso.cs",
+              "ToolTip": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Principal\\FromAcceso.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Principal\\FromAcceso.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T22:26:34.735Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FromPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Principal\\FromPrincipal.cs",
+              "RelativeDocumentMoniker": "Principal\\FromPrincipal.cs",
+              "ToolTip": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Principal\\FromPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Principal\\FromPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T22:26:33.673Z"
             }
           ]
         }
