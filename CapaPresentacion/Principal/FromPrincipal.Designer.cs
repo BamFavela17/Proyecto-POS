@@ -43,16 +43,16 @@
             this.panel22 = new System.Windows.Forms.Panel();
             this.panel23 = new System.Windows.Forms.Panel();
             this.panel24 = new System.Windows.Forms.Panel();
-
+<<<<<<< HEAD
             this.subMenuAdmin = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-
+=======
             this.button15 = new System.Windows.Forms.Button();
-
+>>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569
             this.subMenuCat = new System.Windows.Forms.Panel();
             this.panel26 = new System.Windows.Forms.Panel();
             this.panel27 = new System.Windows.Forms.Panel();
@@ -93,12 +93,12 @@
             this.btnCatalogos = new System.Windows.Forms.Button();
             this.Informacion = new System.Windows.Forms.PictureBox();
             this.btnAdministrar = new System.Windows.Forms.Button();
-
+<<<<<<< HEAD
             this.btnRelize = new System.Windows.Forms.PictureBox();
             this.btnM = new System.Windows.Forms.PictureBox();
             this.btnG = new System.Windows.Forms.PictureBox();
             this.btnExit = new System.Windows.Forms.PictureBox();
-
+=======
             this.subMenuAdmin = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
@@ -113,7 +113,7 @@
             this.Contenido = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnHorario = new System.Windows.Forms.Button();
-
+>>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569
             this.BarrTitulo.SuspendLayout();
             this.BarOpc.SuspendLayout();
             this.subMenuMov.SuspendLayout();
@@ -129,7 +129,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnM)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnG)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
-
+<<<<<<< HEAD
+=======
             this.BarOpc.SuspendLayout();
             this.subMenuMov.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnCsesion)).BeginInit();
@@ -139,7 +140,7 @@
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Informacion)).BeginInit();
             this.subMenuAdmin.SuspendLayout();
-
+>>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569
             this.SuspendLayout();
             // 
             // BarrTitulo
@@ -497,7 +498,7 @@
             this.btnPagos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPagos.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.btnPagos.ForeColor = System.Drawing.SystemColors.ButtonFace;
-           // this.btnPagos.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_402;
+            this.btnPagos.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_402;
             this.btnPagos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPagos.Location = new System.Drawing.Point(23, 226);
             this.btnPagos.Name = "btnPagos";
@@ -515,7 +516,7 @@
             this.btnRetiro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRetiro.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.btnRetiro.ForeColor = System.Drawing.SystemColors.ButtonFace;
-          //  this.btnRetiro.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
+            this.btnRetiro.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.btnRetiro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRetiro.Location = new System.Drawing.Point(21, 116);
             this.btnRetiro.Name = "btnRetiro";
@@ -533,7 +534,7 @@
             this.btnCortecias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCortecias.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.btnCortecias.ForeColor = System.Drawing.SystemColors.ButtonFace;
-           // this.btnCortecias.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
+            this.btnCortecias.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.btnCortecias.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCortecias.Location = new System.Drawing.Point(23, 172);
             this.btnCortecias.Name = "btnCortecias";
@@ -551,7 +552,7 @@
             this.btnCompras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCompras.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.btnCompras.ForeColor = System.Drawing.SystemColors.ButtonFace;
-          //  this.btnCompras.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
+            this.btnCompras.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.btnCompras.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCompras.Location = new System.Drawing.Point(21, 62);
             this.btnCompras.Name = "btnCompras";
@@ -569,7 +570,7 @@
             this.btnVenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVenta.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.btnVenta.ForeColor = System.Drawing.SystemColors.ButtonFace;
-           // this.btnVenta.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_402;
+            this.btnVenta.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_402;
             this.btnVenta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnVenta.Location = new System.Drawing.Point(21, 8);
             this.btnVenta.Name = "btnVenta";
@@ -583,7 +584,7 @@
             // btnCsesion
             // 
             this.btnCsesion.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-           // this.btnCsesion.Image = global::LaCrudaY_.Properties.Resources.icons8_salida_70__1_;
+            this.btnCsesion.Image = global::LaCrudaY_.Properties.Resources.icons8_salida_70__1_;
             this.btnCsesion.Location = new System.Drawing.Point(75, 663);
             this.btnCsesion.Name = "btnCsesion";
             this.btnCsesion.Size = new System.Drawing.Size(79, 75);
@@ -599,7 +600,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-           // this.button4.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
+            this.button4.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.Location = new System.Drawing.Point(23, 170);
             this.button4.Name = "button4";
@@ -617,7 +618,7 @@
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button11.ForeColor = System.Drawing.SystemColors.ButtonFace;
-           // this.button11.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
+            this.button11.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button11.Location = new System.Drawing.Point(23, 278);
             this.button11.Name = "button11";
@@ -635,7 +636,7 @@
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button12.ForeColor = System.Drawing.SystemColors.ButtonFace;
-           // this.button12.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
+            this.button12.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button12.Location = new System.Drawing.Point(21, 116);
             this.button12.Name = "button12";
@@ -653,7 +654,7 @@
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button13.ForeColor = System.Drawing.SystemColors.ButtonFace;
-           // this.button13.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
+            this.button13.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button13.Location = new System.Drawing.Point(23, 224);
             this.button13.Name = "button13";
@@ -671,7 +672,7 @@
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button14.ForeColor = System.Drawing.SystemColors.ButtonFace;
-           // this.button14.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
+            this.button14.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button14.Location = new System.Drawing.Point(21, 62);
             this.button14.Name = "button14";
@@ -689,7 +690,7 @@
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button15.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button15.ForeColor = System.Drawing.SystemColors.ButtonFace;
-           // this.button15.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_402;
+            this.button15.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_402;
             this.button15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button15.Location = new System.Drawing.Point(20, 8);
             this.button15.Name = "button15";
@@ -707,7 +708,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-           // this.button3.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
+            this.button3.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.Location = new System.Drawing.Point(22, 163);
             this.button3.Name = "button3";
@@ -725,7 +726,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-           // this.button2.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
+            this.button2.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(22, 109);
             this.button2.Name = "button2";
@@ -743,7 +744,7 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-           // this.button5.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
+            this.button5.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.Location = new System.Drawing.Point(22, 217);
             this.button5.Name = "button5";
@@ -761,7 +762,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            //this.button1.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
+            this.button1.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(21, 55);
             this.button1.Name = "button1";
@@ -779,7 +780,7 @@
             this.opc1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.opc1.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.opc1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            //this.opc1.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
+            this.opc1.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.opc1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.opc1.Location = new System.Drawing.Point(22, 1);
             this.opc1.Name = "opc1";
@@ -797,7 +798,7 @@
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button16.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button16.ForeColor = System.Drawing.SystemColors.ButtonFace;
-           // this.button16.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
+            this.button16.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button16.Location = new System.Drawing.Point(23, 118);
             this.button16.Name = "button16";
@@ -815,7 +816,7 @@
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button17.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button17.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            //this.button17.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
+            this.button17.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button17.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button17.Location = new System.Drawing.Point(23, 64);
             this.button17.Name = "button17";
@@ -833,7 +834,7 @@
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button18.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button18.ForeColor = System.Drawing.SystemColors.ButtonFace;
-           // this.button18.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
+            this.button18.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button18.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button18.Location = new System.Drawing.Point(23, 172);
             this.button18.Name = "button18";
@@ -851,7 +852,7 @@
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button20.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.button20.ForeColor = System.Drawing.SystemColors.ButtonFace;
-           // this.button20.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
+            this.button20.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.button20.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button20.Location = new System.Drawing.Point(22, 8);
             this.button20.Name = "button20";
@@ -865,7 +866,7 @@
             // btnEditarDatos
             // 
             this.btnEditarDatos.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-           // this.btnEditarDatos.Image = global::LaCrudaY_.Properties.Resources.icons8_config_70__1_;
+            this.btnEditarDatos.Image = global::LaCrudaY_.Properties.Resources.icons8_config_70__1_;
             this.btnEditarDatos.Location = new System.Drawing.Point(194, 663);
             this.btnEditarDatos.Name = "btnEditarDatos";
             this.btnEditarDatos.Size = new System.Drawing.Size(80, 80);
@@ -881,7 +882,7 @@
             this.btnVentasPunto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVentasPunto.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.btnVentasPunto.ForeColor = System.Drawing.SystemColors.ButtonFace;
-          //  this.btnVentasPunto.Image = global::LaCrudaY_.Properties.Resources.icons8_grafico_40__1_;
+            this.btnVentasPunto.Image = global::LaCrudaY_.Properties.Resources.icons8_grafico_40__1_;
             this.btnVentasPunto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnVentasPunto.Location = new System.Drawing.Point(54, 448);
             this.btnVentasPunto.Name = "btnVentasPunto";
@@ -898,7 +899,7 @@
             this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReportes.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.btnReportes.ForeColor = System.Drawing.SystemColors.ButtonFace;
-          //  this.btnReportes.Image = global::LaCrudaY_.Properties.Resources.icons8_grafico_40;
+            this.btnReportes.Image = global::LaCrudaY_.Properties.Resources.icons8_grafico_40;
             this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnReportes.Location = new System.Drawing.Point(46, 376);
             this.btnReportes.Name = "btnReportes";
@@ -915,7 +916,7 @@
             this.btnCatalogos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCatalogos.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F);
             this.btnCatalogos.ForeColor = System.Drawing.SystemColors.ButtonFace;
-           // this.btnCatalogos.Image = global::LaCrudaY_.Properties.Resources.icons8_view_40;
+            this.btnCatalogos.Image = global::LaCrudaY_.Properties.Resources.icons8_view_40;
             this.btnCatalogos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCatalogos.Location = new System.Drawing.Point(46, 301);
             this.btnCatalogos.Name = "btnCatalogos";
@@ -943,7 +944,7 @@
             this.btnAdministrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdministrar.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdministrar.ForeColor = System.Drawing.SystemColors.ButtonFace;
-           // this.btnAdministrar.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
+            this.btnAdministrar.Image = global::LaCrudaY_.Properties.Resources.icons8_configuración_del_administrador_401;
             this.btnAdministrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAdministrar.Location = new System.Drawing.Point(46, 228);
             this.btnAdministrar.Name = "btnAdministrar";
@@ -1002,7 +1003,8 @@
             this.btnExit.TabStop = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-
+<<<<<<< HEAD
+=======
             // BarOpc
             // 
             this.BarOpc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
@@ -1829,7 +1831,7 @@
             this.btnHorario.UseVisualStyleBackColor = true;
             this.btnHorario.Click += new System.EventHandler(this.btnHorario_Click);
             // 
-
+>>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569
             // FromPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1859,7 +1861,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnM)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnG)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).EndInit();
-
+<<<<<<< HEAD
+=======
             this.BarOpc.ResumeLayout(false);
             this.subMenuMov.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnCsesion)).EndInit();
@@ -1870,7 +1873,7 @@
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Informacion)).EndInit();
             this.subMenuAdmin.ResumeLayout(false);
-
+>>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569
             this.ResumeLayout(false);
 
         }

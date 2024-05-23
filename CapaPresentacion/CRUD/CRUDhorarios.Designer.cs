@@ -31,34 +31,34 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnExit = new System.Windows.Forms.PictureBox();
             this.btnM = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.tblHorarios = new System.Windows.Forms.DataGridView();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.btnEditar = new System.Windows.Forms.PictureBox();
-            this.btnBorrar = new System.Windows.Forms.PictureBox();
-            this.btnGuardar = new System.Windows.Forms.PictureBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnM)).BeginInit();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tblHorarios)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnEditar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnBorrar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnGuardar)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(62)))), ((int)(((byte)(152)))));
             this.panel1.Controls.Add(this.btnExit);
             this.panel1.Controls.Add(this.btnM);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.ForeColor = System.Drawing.Color.Coral;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1092, 40);
@@ -86,134 +86,170 @@
             this.btnM.TabIndex = 3;
             this.btnM.TabStop = false;
             // 
+            // tblHorarios
+            // 
+            this.tblHorarios.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(62)))), ((int)(((byte)(152)))));
+            this.tblHorarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tblHorarios.Location = new System.Drawing.Point(431, 17);
+            this.tblHorarios.Name = "tblHorarios";
+            this.tblHorarios.RowHeadersWidth = 51;
+            this.tblHorarios.RowTemplate.Height = 24;
+            this.tblHorarios.Size = new System.Drawing.Size(635, 355);
+            this.tblHorarios.TabIndex = 0;
+            this.tblHorarios.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tblHorarios_CellContentClick);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(175)))), ((int)(((byte)(135)))));
+            this.label4.Location = new System.Drawing.Point(27, 32);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(348, 45);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "Rgistro de horarios";
+            // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.groupBox1);
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(151)))), ((int)(((byte)(196)))));
+            this.panel2.Controls.Add(this.dateTimePicker3);
+            this.panel2.Controls.Add(this.dateTimePicker1);
+            this.panel2.Controls.Add(this.textBox2);
+            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.button3);
+            this.panel2.Controls.Add(this.button2);
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.tblHorarios);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(151)))), ((int)(((byte)(196)))));
             this.panel2.Location = new System.Drawing.Point(0, 40);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1092, 725);
             this.panel2.TabIndex = 1;
-            // 
-            // tblHorarios
-            // 
-            this.tblHorarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tblHorarios.Location = new System.Drawing.Point(199, 33);
-            this.tblHorarios.Name = "tblHorarios";
-            this.tblHorarios.RowHeadersWidth = 51;
-            this.tblHorarios.RowTemplate.Height = 24;
-            this.tblHorarios.Size = new System.Drawing.Size(676, 355);
-            this.tblHorarios.TabIndex = 0;
-            this.tblHorarios.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tblHorarios_CellContentClick);
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.btnEditar);
-            this.groupBox1.Controls.Add(this.btnBorrar);
-            this.groupBox1.Controls.Add(this.btnGuardar);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Location = new System.Drawing.Point(45, 394);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(987, 256);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(32, 107);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(273, 22);
-            this.textBox1.TabIndex = 0;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(345, 107);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(273, 22);
-            this.textBox2.TabIndex = 1;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(678, 107);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(273, 22);
-            this.textBox3.TabIndex = 2;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(29, 73);
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(175)))), ((int)(((byte)(135)))));
+            this.label1.Location = new System.Drawing.Point(48, 124);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "label1";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(351, 73);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 16);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "label2";
+            this.label1.Size = new System.Drawing.Size(101, 27);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Nombre:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(675, 73);
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(175)))), ((int)(((byte)(135)))));
+            this.label3.Location = new System.Drawing.Point(48, 400);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 16);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "label3";
+            this.label3.Size = new System.Drawing.Size(163, 27);
+            this.label3.TabIndex = 22;
+            this.label3.Text = "Hora de salida:";
             // 
-            // btnEditar
+            // label5
             // 
-            this.btnEditar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.btnEditar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEditar.Image = global::LaCrudaY_.Properties.Resources.edit_40dp;
-            this.btnEditar.Location = new System.Drawing.Point(603, 159);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(80, 80);
-            this.btnEditar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnEditar.TabIndex = 18;
-            this.btnEditar.TabStop = false;
-            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(175)))), ((int)(((byte)(135)))));
+            this.label5.Location = new System.Drawing.Point(48, 297);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(182, 27);
+            this.label5.TabIndex = 23;
+            this.label5.Text = "Hora de entrada:";
             // 
-            // btnBorrar
+            // label6
             // 
-            this.btnBorrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.btnBorrar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnBorrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBorrar.Image = global::LaCrudaY_.Properties.Resources.delete_40dp;
-            this.btnBorrar.Location = new System.Drawing.Point(491, 159);
-            this.btnBorrar.Name = "btnBorrar";
-            this.btnBorrar.Size = new System.Drawing.Size(80, 80);
-            this.btnBorrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnBorrar.TabIndex = 17;
-            this.btnBorrar.TabStop = false;
-            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(175)))), ((int)(((byte)(135)))));
+            this.label6.Location = new System.Drawing.Point(48, 217);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(78, 27);
+            this.label6.TabIndex = 24;
+            this.label6.Text = "Turno:";
             // 
-            // btnGuardar
+            // button1
             // 
-            this.btnGuardar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.btnGuardar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGuardar.Image = global::LaCrudaY_.Properties.Resources.save_48dp_FILL0_wght400_GRAD0_opsz48;
-            this.btnGuardar.Location = new System.Drawing.Point(377, 159);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(80, 80);
-            this.btnGuardar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnGuardar.TabIndex = 16;
-            this.btnGuardar.TabStop = false;
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(175)))), ((int)(((byte)(135)))));
+            this.button1.Location = new System.Drawing.Point(454, 616);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(121, 42);
+            this.button1.TabIndex = 25;
+            this.button1.Text = "Guardar";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(175)))), ((int)(((byte)(135)))));
+            this.button2.Location = new System.Drawing.Point(934, 616);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(121, 42);
+            this.button2.TabIndex = 26;
+            this.button2.Text = "Eliminar";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(175)))), ((int)(((byte)(135)))));
+            this.button3.Location = new System.Drawing.Point(694, 616);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(121, 42);
+            this.button3.TabIndex = 27;
+            this.button3.Text = "Editar";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(151)))), ((int)(((byte)(196)))));
+            this.textBox1.Location = new System.Drawing.Point(74, 168);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(261, 22);
+            this.textBox1.TabIndex = 28;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(151)))), ((int)(((byte)(196)))));
+            this.textBox2.Location = new System.Drawing.Point(74, 247);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(261, 22);
+            this.textBox2.TabIndex = 29;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(175)))), ((int)(((byte)(135)))));
+            this.dateTimePicker1.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(175)))), ((int)(((byte)(135)))));
+            this.dateTimePicker1.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(175)))), ((int)(((byte)(135)))));
+            this.dateTimePicker1.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(175)))), ((int)(((byte)(135)))));
+            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dateTimePicker1.Location = new System.Drawing.Point(167, 338);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(168, 24);
+            this.dateTimePicker1.TabIndex = 30;
+            // 
+            // dateTimePicker3
+            // 
+            this.dateTimePicker3.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dateTimePicker3.Location = new System.Drawing.Point(167, 456);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(168, 24);
+            this.dateTimePicker3.TabIndex = 32;
             // 
             // CRUDhorarios
             // 
@@ -229,13 +265,9 @@
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnM)).EndInit();
-            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tblHorarios)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnEditar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnBorrar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnGuardar)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -243,19 +275,21 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.DataGridView tblHorarios;
         private System.Windows.Forms.PictureBox btnM;
         private System.Windows.Forms.PictureBox btnExit;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.DataGridView tblHorarios;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker3;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox btnEditar;
-        private System.Windows.Forms.PictureBox btnBorrar;
-        private System.Windows.Forms.PictureBox btnGuardar;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
