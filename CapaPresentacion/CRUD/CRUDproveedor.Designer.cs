@@ -224,6 +224,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(39)))), ((int)(((byte)(74)))));
             this.textBox1.Location = new System.Drawing.Point(170, 136);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(212, 22);
@@ -231,6 +232,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(39)))), ((int)(((byte)(74)))));
             this.textBox2.Location = new System.Drawing.Point(170, 198);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(212, 22);
@@ -238,6 +240,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(39)))), ((int)(((byte)(74)))));
             this.textBox3.Location = new System.Drawing.Point(170, 263);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(212, 22);
@@ -245,6 +248,7 @@
             // 
             // textBox4
             // 
+            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(39)))), ((int)(((byte)(74)))));
             this.textBox4.Location = new System.Drawing.Point(170, 318);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(212, 22);
@@ -252,6 +256,7 @@
             // 
             // textBox5
             // 
+            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(39)))), ((int)(((byte)(74)))));
             this.textBox5.Location = new System.Drawing.Point(170, 386);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(212, 22);
@@ -259,6 +264,7 @@
             // 
             // textBox6
             // 
+            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(39)))), ((int)(((byte)(74)))));
             this.textBox6.Location = new System.Drawing.Point(170, 449);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(212, 22);
@@ -266,6 +272,7 @@
             // 
             // textBox7
             // 
+            this.textBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(39)))), ((int)(((byte)(74)))));
             this.textBox7.Location = new System.Drawing.Point(170, 510);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(212, 22);
@@ -273,6 +280,7 @@
             // 
             // textBox8
             // 
+            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(39)))), ((int)(((byte)(74)))));
             this.textBox8.Location = new System.Drawing.Point(170, 564);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(212, 22);
@@ -280,6 +288,7 @@
             // 
             // textBox9
             // 
+            this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(39)))), ((int)(((byte)(74)))));
             this.textBox9.Location = new System.Drawing.Point(181, 624);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(201, 22);
