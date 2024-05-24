@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|c:\\users\\dell inspirion 5594\\documents\\proyecto-pos\\capapresentacion\\principal\\fromprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:principal\\fromprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|c:\\users\\dell inspirion 5594\\documents\\proyecto-pos\\capapresentacion\\crud\\crudmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:crud\\crudmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|c:\\users\\dell inspirion 5594\\documents\\proyecto-pos\\capapresentacion\\crud\\crudcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:crud\\crudcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\crud\\crudhorarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:crud\\crudhorarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\principal\\ajusteusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -17,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\crud\\crudclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:crud\\crudclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\crud\\crudcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F25F431A-5285-4532-B95D-9FAB88DC5B61}|CapaPresentacion.csproj|solutionrelative:crud\\crudcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,39 +30,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FromPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Principal\\FromPrincipal.cs",
-              "RelativeDocumentMoniker": "Principal\\FromPrincipal.cs",
-              "ToolTip": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\Principal\\FromPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Principal\\FromPrincipal.cs [Dise\u00F1o]",
+              "Title": "CRUDmaterial.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\CRUD\\CRUDmaterial.cs",
+              "RelativeDocumentMoniker": "CRUD\\CRUDmaterial.cs",
+              "ToolTip": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\CRUD\\CRUDmaterial.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CRUD\\CRUDmaterial.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T23:34:11.653Z",
+              "WhenOpened": "2024-05-23T23:57:49.895Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CRUDhorarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\CRUD\\CRUDhorarios.cs",
+              "RelativeDocumentMoniker": "CRUD\\CRUDhorarios.cs",
+              "ToolTip": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\CRUD\\CRUDhorarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CRUD\\CRUDhorarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T23:35:49.484Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CRUDcompras.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\CRUD\\CRUDcompras.cs",
               "RelativeDocumentMoniker": "CRUD\\CRUDcompras.cs",
               "ToolTip": "C:\\Users\\Dell Inspirion 5594\\Documents\\Proyecto-POS\\CapaPresentacion\\CRUD\\CRUDcompras.cs [Dise\u00F1o]",
               "RelativeToolTip": "CRUD\\CRUDcompras.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T23:00:51.472Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-05-23T23:00:51.472Z"
             },
             {
               "$type": "Document",
