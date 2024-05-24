@@ -202,6 +202,8 @@
             // 
             this.cmbPuesto.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbPuesto.FormattingEnabled = true;
+            this.cmbPuesto.Items.AddRange(new object[] {
+            "Administrador"});
             this.cmbPuesto.Location = new System.Drawing.Point(784, 61);
             this.cmbPuesto.Name = "cmbPuesto";
             this.cmbPuesto.Size = new System.Drawing.Size(196, 31);

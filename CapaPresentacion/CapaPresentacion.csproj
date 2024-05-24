@@ -438,5 +438,8 @@
   <ItemGroup>
     <None Include="Resources\Ajustes.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-análisis-de-stock-80.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

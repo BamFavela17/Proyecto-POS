@@ -174,8 +174,8 @@ namespace CapaDatos
             // hacemos uso del procedure insertar
             comando.CommandText = "insertarCliente";
             comando.CommandType = CommandType.StoredProcedure;
-            comando.Parameters.AddWithValue("", nom);
-            comando.Parameters.AddWithValue("", importancia);
+            comando.Parameters.AddWithValue("@Nombre", nom);
+            comando.Parameters.AddWithValue("@imp", importancia);
             comando.ExecuteNonQuery();
 
             comando.Parameters.Clear();
@@ -349,6 +349,47 @@ namespace CapaDatos
             comando.ExecuteNonQuery();
 
             comando.Parameters.Clear();
+        }
+        public void ActualizaMisDatos(string nom, string ape, DateTime fhN, string dir, string tel, string cor, string user, string pass, string id)
+        {
+            // abrimos conexion 
+            comando.Connection = conn.AbrirConexion();
+            // hacemos uso del procedure editar
+            comando.CommandText = "ActualizaMisDatos";
+            comando.CommandType = CommandType.StoredProcedure;
+            comando.Parameters.AddWithValue("@Nombres", nom);
+            comando.Parameters.AddWithValue("@Apellidos", ape);
+            comando.Parameters.AddWithValue("@FhNa", fhN);
+            comando.Parameters.AddWithValue("@Dir", dir);
+            comando.Parameters.AddWithValue("@Tel", tel);
+            comando.Parameters.AddWithValue("@cor", cor);
+            comando.Parameters.AddWithValue("@usuario", user);
+            comando.Parameters.AddWithValue("@contraseña", pass);
+            comando.Parameters.AddWithValue("@id", id);
+            comando.ExecuteNonQuery();
+
+            comando.Parameters.Clear();
+            string consulta = "select * from Usuarios where usuario = '" + user + "' and contraseña = '" + pass + "'";
+            SqlCommand cmd = new SqlCommand(consulta, conn.AbrirConexion());
+            SqlDataReader reader = cmd.ExecuteReader();
+            if (reader.HasRows)
+            {
+                while (reader.Read())
+                {
+                    UserCache.IdUser = reader.GetInt32(0);
+                    UserCache.nombres = reader.GetString(1);
+                    UserCache.apellidos = reader.GetString(2);
+                    UserCache.idpuesto = reader.GetInt32(3);
+                    UserCache.fhNacido = reader.GetDateTime(4);
+                    UserCache.fhContratado = reader.GetDateTime(5);
+                    UserCache.direccion = reader.GetString(6);
+                    UserCache.telefono = reader.GetString(7);
+                    UserCache.correo = reader.GetString(8);
+                    UserCache.idturno = reader.GetInt32(9);
+                    UserCache.usuario = reader.GetString(10);
+                    UserCache.contraseña = reader.GetString(11);
+                }
+            }
         }
         public void EditarPuesto(string nom, decimal sueldo, string id)
         {

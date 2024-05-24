@@ -308,5 +308,10 @@ namespace LaCrudaY_.Principal
             subMenuAdmin.Visible = false;
             BarOpc.Size = new System.Drawing.Size(260, 750);
         }
+
+        private void BarOpc_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

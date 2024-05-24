@@ -258,8 +258,12 @@ namespace CapaNegocio
             objCD.EliminarDetalleCompra(Convert.ToInt32(id));
 
         }
-        
-       
+        public void ActualizaMisDatos(string nom, string ape, DateTime fhN, string dir, string tel, string cor, string user, string pass, string id)
+        {
+            objCD.ActualizaMisDatos( nom,  ape,  fhN,  dir,  tel,  cor,  user,  pass,  id);
+        }
+
+
 
     }
 }

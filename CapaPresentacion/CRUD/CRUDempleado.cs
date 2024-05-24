@@ -60,7 +60,7 @@ namespace LaCrudaY_
         private void btnGuardar_Click_1(object sender, EventArgs e)
         {
            
-            int tipo = cmbPuesto.SelectedIndex ,turno= Convert.ToInt16(txtTurno.Text);
+            int tipo = (cmbPuesto.SelectedIndex + 1) ,turno= Convert.ToInt16(txtTurno.Text);
             string nom= txtNombre.Text, ape= txtApellido.Text, dir = txtDir.Text, tel=txtTel.Text,cor=txtCorreo.Text,user=txtuser.Text,pass=txtpass.Text;
             DateTime fhN = DateTime.Parse(txtFHN.Text), fhC = DateTime.Parse(txtFHC.Text);
             //INSERTAR
@@ -106,6 +106,8 @@ namespace LaCrudaY_
             txtApellido.Clear();
             txtCorreo.Clear();
             txtDir.Clear();
+
+            cmbPuesto.SelectedItem = null;  
             txtTel.Clear();
             txtTurno.Clear();
             txtuser.Clear();  
