@@ -196,7 +196,26 @@
             this.tblCategorias.RowTemplate.Height = 24;
             this.tblCategorias.Size = new System.Drawing.Size(942, 220);
             this.tblCategorias.TabIndex = 0;
->>>>>>> 2e9def4770cf1133158d4acf6c68bb7d35e30569
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(255)))), ((int)(((byte)(229)))));
+            this.label4.Location = new System.Drawing.Point(409, 20);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(413, 44);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Catalogo de Materiales:";
+            // 
+            // pictureBox1
+            // 
+
+            this.pictureBox1.Location = new System.Drawing.Point(274, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(89, 69);
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
             // 
             // Materiales
             // 

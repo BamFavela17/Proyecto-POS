@@ -75,9 +75,9 @@ namespace LaCrudaY_.Principal
                     if (validLogin == true)
                     {
                         FromPrincipal mainMenu = new FromPrincipal();
-                        MessageBox.Show("Bienvenido " + UserCache.nombres + " " + UserCache.apellidos);
-                        mainMenu.Show();
                         this.Hide();
+                        MessageBox.Show("Bienvenido " + UserCache.nombres + " " + UserCache.apellidos);
+                        mainMenu.ShowDialog();
                         
                     }
                     else

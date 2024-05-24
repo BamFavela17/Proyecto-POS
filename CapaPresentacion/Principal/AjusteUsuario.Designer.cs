@@ -41,7 +41,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.tstPass = new System.Windows.Forms.TextBox();
+            this.txtPass = new System.Windows.Forms.TextBox();
             this.txtUser = new System.Windows.Forms.TextBox();
             this.txtTel = new System.Windows.Forms.TextBox();
             this.txtDir = new System.Windows.Forms.TextBox();
@@ -84,7 +84,7 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.tstPass);
+            this.groupBox1.Controls.Add(this.txtPass);
             this.groupBox1.Controls.Add(this.txtUser);
             this.groupBox1.Controls.Add(this.txtTel);
             this.groupBox1.Controls.Add(this.txtDir);
@@ -105,7 +105,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::LaCrudaY_.Properties.Resources.logoredondopng;
-            this.pictureBox1.Location = new System.Drawing.Point(227, 122);
+            this.pictureBox1.Location = new System.Drawing.Point(201, 110);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(200, 200);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -115,9 +115,9 @@
             // btnEdit
             // 
             this.btnEdit.Image = global::LaCrudaY_.Properties.Resources.edit_40dp;
-            this.btnEdit.Location = new System.Drawing.Point(880, 613);
+            this.btnEdit.Location = new System.Drawing.Point(870, 181);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(59, 60);
+            this.btnEdit.Size = new System.Drawing.Size(67, 71);
             this.btnEdit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnEdit.TabIndex = 33;
             this.btnEdit.TabStop = false;
@@ -127,7 +127,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(594, 402);
+            this.label1.Location = new System.Drawing.Point(589, 429);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(117, 31);
             this.label1.TabIndex = 24;
@@ -142,7 +142,7 @@
             this.DTNacimiento.CalendarTrailingForeColor = System.Drawing.Color.Green;
             this.DTNacimiento.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DTNacimiento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.DTNacimiento.Location = new System.Drawing.Point(819, 231);
+            this.DTNacimiento.Location = new System.Drawing.Point(583, 387);
             this.DTNacimiento.Name = "DTNacimiento";
             this.DTNacimiento.Size = new System.Drawing.Size(235, 36);
             this.DTNacimiento.TabIndex = 32;
@@ -151,7 +151,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold);
-            this.label8.Location = new System.Drawing.Point(448, 231);
+            this.label8.Location = new System.Drawing.Point(472, 211);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(144, 31);
             this.label8.TabIndex = 31;
@@ -161,7 +161,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(458, 129);
+            this.label7.Location = new System.Drawing.Point(482, 109);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(110, 31);
             this.label7.TabIndex = 30;
@@ -171,7 +171,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(825, 192);
+            this.label6.Location = new System.Drawing.Point(583, 348);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(224, 31);
             this.label6.TabIndex = 29;
@@ -211,27 +211,27 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(589, 506);
+            this.label2.Location = new System.Drawing.Point(584, 533);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(117, 31);
             this.label2.TabIndex = 25;
             this.label2.Text = "Apellido:";
             // 
-            // tstPass
+            // txtPass
             // 
-            this.tstPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(204)))), ((int)(((byte)(199)))));
-            this.tstPass.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tstPass.Location = new System.Drawing.Point(452, 274);
-            this.tstPass.Name = "tstPass";
-            this.tstPass.Size = new System.Drawing.Size(337, 36);
-            this.tstPass.TabIndex = 23;
+            this.txtPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(204)))), ((int)(((byte)(199)))));
+            this.txtPass.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPass.Location = new System.Drawing.Point(476, 254);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.Size = new System.Drawing.Size(337, 36);
+            this.txtPass.TabIndex = 23;
             // 
             // txtUser
             // 
             this.txtUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(204)))), ((int)(((byte)(199)))));
             this.txtUser.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUser.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.txtUser.Location = new System.Drawing.Point(452, 167);
+            this.txtUser.Location = new System.Drawing.Point(476, 147);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(337, 36);
             this.txtUser.TabIndex = 22;
@@ -267,7 +267,7 @@
             // 
             this.txtApe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(204)))), ((int)(((byte)(199)))));
             this.txtApe.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApe.Location = new System.Drawing.Point(594, 549);
+            this.txtApe.Location = new System.Drawing.Point(589, 576);
             this.txtApe.Name = "txtApe";
             this.txtApe.Size = new System.Drawing.Size(473, 36);
             this.txtApe.TabIndex = 18;
@@ -276,7 +276,7 @@
             // 
             this.txtNom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(204)))), ((int)(((byte)(199)))));
             this.txtNom.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNom.Location = new System.Drawing.Point(593, 447);
+            this.txtNom.Location = new System.Drawing.Point(588, 474);
             this.txtNom.Name = "txtNom";
             this.txtNom.Size = new System.Drawing.Size(473, 36);
             this.txtNom.TabIndex = 17;
@@ -284,9 +284,9 @@
             // btnSave
             // 
             this.btnSave.Image = global::LaCrudaY_.Properties.Resources.save_48dp_FILL0_wght400_GRAD0_opsz48;
-            this.btnSave.Location = new System.Drawing.Point(1000, 613);
+            this.btnSave.Location = new System.Drawing.Point(870, 181);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(67, 60);
+            this.btnSave.Size = new System.Drawing.Size(67, 71);
             this.btnSave.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnSave.TabIndex = 34;
             this.btnSave.TabStop = false;
@@ -324,7 +324,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox tstPass;
+        private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.TextBox txtTel;
         private System.Windows.Forms.TextBox txtDir;

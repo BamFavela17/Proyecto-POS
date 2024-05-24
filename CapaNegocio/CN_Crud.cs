@@ -1,11 +1,14 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using CapaDatos;
+using CapaSoporte;
 namespace CapaNegocio
 {
     public class CN_Crud
@@ -255,6 +258,13 @@ namespace CapaNegocio
             objCD.EliminarDetalleCompra(Convert.ToInt32(id));
 
         }
+        public void ActualizaMisDatos(string nom, string ape, DateTime fhN, string dir, string tel, string cor, string user, string pass, string id)
+        {
+            objCD.ActualizaMisDatos( nom,  ape,  fhN,  dir,  tel,  cor,  user,  pass,  id);
+        }
+
+
+
     }
 }
 
