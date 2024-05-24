@@ -31,7 +31,6 @@ namespace LaCrudaY_
         private void CRUDempleado_Load(object sender, EventArgs e)
         {
             MostrarEmpleados();
-
         }
         public void MostrarEmpleados()
         {
@@ -59,7 +58,7 @@ namespace LaCrudaY_
         {
 
             int tipo = Convert.ToInt16(txtPuesto.Text),turno= Convert.ToInt16(txtTurno.Text);
-            string nom= txtNombre.Text, ape= txtApellido.Text, dir = txtDir.Text, tel=txtTel.Text,cor=txtCorreo.Text,user=txtuser.Text,pass=txtpass.Text;
+            string id =txtID.Text,nom= txtNombre.Text, ape= txtApellido.Text, dir = txtDir.Text, tel=txtTel.Text,cor=txtCorreo.Text,user=txtuser.Text,pass=txtpass.Text;
             DateTime fhN = DateTime.Parse(txtFHN.Text), fhC = DateTime.Parse(txtFHC.Text);
             //INSERTAR
             if (Editar == false)
@@ -99,7 +98,7 @@ namespace LaCrudaY_
         }
         public void limpiarForm()
         {
-          
+            txtID.Clear();
             txtNombre.Clear();
             txtApellido.Clear();
           txtPuesto.Clear(); 
@@ -136,7 +135,7 @@ namespace LaCrudaY_
                 Editar = true;
                 txtNombre.Text = tblUser.CurrentRow.Cells["Nombres"].Value.ToString();
                 txtApellido.Text = tblUser.CurrentRow.Cells["Apellidos"].Value.ToString();
-                txtPuesto.Text = tblUser.CurrentRow.Cells["idPuesto"].Value.ToString();
+                txtPuesto.Text = tblUser.CurrentRow.Cells["Puesto"].Value.ToString();
                 txtFHN.Text = tblUser.CurrentRow.Cells["FhNa"].Value.ToString();
                 txtFHC.Text = tblUser.CurrentRow.Cells["FhCon"].Value.ToString();
                 txtDir.Text = tblUser.CurrentRow.Cells["Dir"].Value.ToString();
