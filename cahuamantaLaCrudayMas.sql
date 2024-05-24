@@ -141,7 +141,20 @@ go
 				  values (@Nombres,@Apellidos, @Puesto, @FhNa, @FhCon, @Dir, @Tel,@cor, @idTurno, @usuario, @contraseña)
 				print ('Usuario registrado con exito.');
 				go
-				
+				create proc ActualizaMisDatos
+				@id int,
+				@Nombres varchar(80),
+				@Apellidos varchar(80),
+				@FhNa date,
+				@Dir varchar(80),
+				@Tel char(10),
+				@cor varchar(80),
+				@usuario Varchar(60),
+				@contraseña varchar(25)
+				as
+				update Usuarios set Nombres= @Nombres,Apellidos = @Apellidos, FhNa= @FhNa, Dir =@Dir, Tel= @Tel,Correo= @cor, usuario= @usuario, contraseña=@contraseña
+				where idU = @id
+				go
 				-- Procedimientos modificar usuarios--
 				create proc ActualizarUsuarios
 				@id int,
